@@ -43,7 +43,8 @@ def gamelog(pid, season, delay, max_age_hours=6):
 
 
 def _fold(s):
-    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower().replace(".", "").strip()
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower().replace(".", "").replace("'", "").strip()
+    return re.sub(r"\s+(jr|sr|ii|iii|iv)$", "", s)
 
 
 def player_ids(pg_html):
@@ -62,3 +63,24 @@ def resolve(name, ids):
         if _fold(n) == want or _fold(n).startswith(want + " "):
             return n, pid
     return None, None
+
+
+def player_ids_by_team(pg_html):
+    """(name, team) -> id, so two players with the same name can be told apart."""
+    out = {}
+    for row in re.findall(r'<tr[^>]*>(.*?)</tr>', pg_html, re.S):
+        m = re.search(r'data-append-csv="([a-z0-9]+)"[^>]*><a href="/players/./\1\.html">([^<]+)<', row)
+        t = re.search(r'data-stat="team_name_abbr"[^>]*>(?:<a[^>]*>)?([A-Z0-9]+)', row)
+        if m and t:
+            out[(_fold(m.group(2)), t.group(1))] = (m.group(2), m.group(1))
+    return out
+
+
+YAHOO_TO_BBREF = {"BKN": "BRK", "PHX": "PHO", "CHA": "CHO", "GS": "GSW", "NY": "NYK", "NO": "NOP", "SA": "SAS",
+                  "UTAH": "UTA", "WSH": "WAS"}
+
+
+def resolve_with_team(name, yahoo_team, ids, by_team):
+    team = YAHOO_TO_BBREF.get(yahoo_team, yahoo_team)
+    hit = by_team.get((_fold(name), team))
+    return hit if hit else resolve(name, ids)

@@ -1,9 +1,28 @@
 {
   "season": 2027,
-  "scoring": {"PTS": 1, "TRB": 1.2, "AST": 1.5, "STL": 3, "BLK": 3, "TOV": -1},
+  "scoring": {
+    "PTS": 1,
+    "TRB": 1.2,
+    "AST": 1.5,
+    "STL": 3,
+    "BLK": 3,
+    "TOV": -1
+  },
   "prior_minutes": 150,
   "fallback_rate": 0.95,
   "default_availability": 0.92,
-  "availability": {"Yves Missi": 0.75},
-  "request_delay_seconds": 4
+  "availability": {
+    "Yves Missi": 0.75,
+    "Jalen Williams": 0.15
+  },
+  "request_delay_seconds": 4,
+  "yahoo_league_id": 108404,
+  "yahoo_free_agents": 75,
+  "report_top": 40,
+  "status_availability": {
+    "Out": 0.85,
+    "Injured": 0.7,
+    "Out For Season": 0.0,
+    "Suspended": 0.85
+  }
 }

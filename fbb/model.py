@@ -88,6 +88,7 @@ def finish(rows, cfg):
     df = pd.DataFrame(rows)
     df["MIN_RISE"] = (df.MIN3 - df.MIN_EARLY).round(1)
     df["FP_RISE"] = (df.FP3 - df.FP_EARLY).round(1)
-    df["AVAIL"] = df.player.map(cfg.get("availability", {})).fillna(cfg["default_availability"])
+    by_status = df.get("status", pd.Series("", index=df.index)).map(cfg.get("status_availability", {}))
+    df["AVAIL"] = df.player.map(cfg.get("availability", {})).fillna(by_status).fillna(cfg["default_availability"])
     df["ROS_TOTAL"] = (df.PROJ * df.team_left * df.AVAIL).round(0)
     return df.sort_values("ROS_TOTAL", ascending=False)
