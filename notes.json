@@ -1,5 +1,5 @@
 {
-  "yahoo_note": "Yahoo shows 26.7 for Walter Clayton Jr. and 49 for Jamison Battle, which look like data glitches on Yahoo’s side.",
+  "yahoo_note": "",
   "tiers": {
     "Danny Wolf": [
       "add",
@@ -7,7 +7,7 @@
     ],
     "Nolan Traoré": [
       "add",
-      "Add now"
+      "Add now (calf)"
     ],
     "Brayden Burries": [
       "add",
@@ -55,7 +55,7 @@
     ],
     "Klay Thompson": [
       "watch",
-      "Add when healthy"
+      "Minor ankle, recheck"
     ],
     "Precious Achiuwa": [
       "watch",
@@ -137,18 +137,6 @@
       "hold",
       "Hold off"
     ],
-    "Walter Clayton": [
-      "hold",
-      "Hold off"
-    ],
-    "Sidy Cissoko": [
-      "hold",
-      "Hold off"
-    ],
-    "Luguentz Dort": [
-      "hold",
-      "Hold off"
-    ],
     "Jalen Williams": [
       "pass",
       "Pass: long-term injury"
@@ -159,7 +147,7 @@
     ],
     "Dennis Schröder": [
       "pass",
-      "Pass"
+      "Out ~2 weeks"
     ],
     "Aaron Nesmith": [
       "pass",
@@ -173,22 +161,6 @@
       "pass",
       "Pass"
     ],
-    "Sion James": [
-      "pass",
-      "Pass"
-    ],
-    "Jamison Battle": [
-      "pass",
-      "Pass"
-    ],
-    "Dean Wade": [
-      "pass",
-      "Pass"
-    ],
-    "Mario Hezonja": [
-      "pass",
-      "Pass"
-    ],
     "Clint Capela": [
       "hold",
       "Check status"
@@ -199,54 +171,55 @@
       "player": "Danny Wolf",
       "tier": "add",
       "points": [
-        "Biggest role change in the pool: 5 games without playing, then 3 straight starts at 29–36 minutes.",
-        "Last 3 games: 25.4 FP/G. Before that: 16.5.",
-        "Only 8% rostered in your league, so you can likely get him without a fight."
+        "Still the biggest role change in the pool: 5 games without playing, then 3 straight starts at 32.2 minutes per game.",
+        "Last 3 games: 25.4 FP/G, up from 16.5 earlier. Projects for 26.2 FP/G, the best of any healthy free agent.",
+        "Only 8% rostered. One game left this week, then 3 next week."
       ]
     },
     {
       "player": "Nolan Traoré",
       "tier": "add",
       "points": [
-        "Brooklyn’s starting point guard. Last 3 games: 28.7 FP/G, the best recent average among healthy players here.",
-        "38.0 FP/36 and 23% usage. The offense runs through him.",
-        "Yahoo upgraded him from questionable to probable. Brooklyn plays Saturday."
+        "Last 3 games: 28.7 FP/G with 38.0 FP/36 and 23% usage.",
+        "Sat out Wednesday with a sore right calf, his first missed game. He practiced Friday and is being reevaluated.",
+        "Egor Dëmin is back from his leg injury, which could take some minutes. Still worth adding, but check Saturday's status first."
       ]
     },
     {
       "player": "Brayden Burries",
       "tier": "add",
       "points": [
-        "Rookie who moved into Milwaukee’s starting lineup on Nov 2 and has started every game since.",
-        "Minutes went from 8–20 to 21–38, with a 45 FP game on Nov 6.",
-        "Rookies who win a starting job usually keep it as the team develops them."
+        "Rookie who has started every Milwaukee game since Nov 2.",
+        "Minutes up from 20.1 to 25.8 over his last 3, at 34.1 FP/36.",
+        "32% rostered, so he may not last on waivers much longer."
       ]
     },
     {
       "player": "Dylan Cardwell",
       "tier": "add",
       "points": [
-        "Precious Achiuwa is out, which opens up minutes at center in Sacramento.",
-        "The last time Achiuwa played limited minutes, Cardwell played 29 minutes for 24 FP.",
+        "Precious Achiuwa (left ankle soreness) was ruled out Friday against Portland, for at least one game.",
+        "Cardwell is the likely replacement at center. He's averaged 22.6 FP/G over his last 3 at 21 minutes.",
         "39.0 FP/36, the best rate among available big men. Treat him as a short-term add until Achiuwa returns."
-      ]
-    },
-    {
-      "player": "Tristan Da Silva",
-      "tier": "floor",
-      "points": [
-        "New from the Yahoo page. Not in your screenshots.",
-        "33.8 minutes per game over his last 3, among the most in the pool, at 22.6 FP/G for the season.",
-        "Low per-minute production (26.6 FP/36) caps his ceiling, but the minutes make him a reliable floor."
       ]
     },
     {
       "player": "Klay Thompson",
       "tier": "watch",
       "points": [
-        "Now marked out by Yahoo. This morning he was probable, and I found no news on the reason.",
-        "When healthy he’s a top add: starting every game, minutes up from 16 to 30+, 26.4 FP/G over his last 3.",
-        "Recheck tomorrow. If it’s a one-game absence, he goes back to the top of the list."
+        "Yesterday's mystery is solved: he tweaked his left ankle late in the win over Utah and was ruled out Friday against Cleveland.",
+        "Reported as soreness, not a sprain, so a short absence looks likely.",
+        "When healthy he's a top add: 3 straight starts, 28.2 minutes and 26.4 FP/G over his last 3.",
+        "41% rostered. If you have a spare spot, grabbing him now before he's cleared is reasonable."
+      ]
+    },
+    {
+      "player": "Tristan Da Silva",
+      "tier": "floor",
+      "points": [
+        "Missed 2 games with a left calf strain. He was upgraded to available Friday against Milwaukee.",
+        "Before that, 33.8 minutes per game over his last 3 games played, among the most in the pool, at 22.6 FP/G for the season.",
+        "Low per-minute production (26.6 FP/36) caps his ceiling, but the minutes give him a reliable floor once he's back."
       ]
     },
     {
@@ -254,7 +227,7 @@
       "tier": "stash",
       "points": [
         "Highest ceiling in the pool: 56.5 FP/36 and a 33.6 PER in 2 games.",
-        "Out since Oct 23 with a knee bone bruise. No return date.",
+        "Still out with the left knee bone bruise from Oct 23. An early estimate of Nov 9 has passed with no return.",
         "If Yahoo lets you put him in one of your 3 IL slots, stashing him costs you nothing."
       ]
     },
@@ -263,7 +236,7 @@
       "tier": "pass",
       "points": [
         "Ranked highest by Yahoo and 49% rostered, but he broke his left fibula and dislocated his ankle on Oct 26.",
-        "After surgery the Thunder said he’d be reevaluated before the end of the regular season. That likely means months.",
+        "The Thunder said he'd be reevaluated before the end of the regular season. That likely means months.",
         "Only worth an IL stash if you have an empty slot and plan to make the fantasy playoffs."
       ]
     }
