@@ -1,0 +1,209 @@
+{
+  "yahoo_note": "Yahoo shows 26.7 for Walter Clayton Jr. and 49 for Jamison Battle, which look like data glitches on Yahoo’s side.",
+  "tiers": {
+    "Klay Thompson": [
+      "add",
+      "Add now"
+    ],
+    "Danny Wolf": [
+      "add",
+      "Add now"
+    ],
+    "Nolan Traoré": [
+      "add",
+      "Add if healthy"
+    ],
+    "Brayden Burries": [
+      "add",
+      "Add now"
+    ],
+    "Yves Missi": [
+      "stash",
+      "Stash on IL"
+    ],
+    "Precious Achiuwa": [
+      "floor",
+      "Solid floor"
+    ],
+    "Kris Dunn": [
+      "floor",
+      "Solid floor"
+    ],
+    "Kyle Kuzma": [
+      "floor",
+      "Solid floor"
+    ],
+    "Naji Marshall": [
+      "floor",
+      "Solid floor"
+    ],
+    "Collin Gillespie": [
+      "floor",
+      "Solid floor"
+    ],
+    "Ziaire Williams": [
+      "floor",
+      "Solid floor"
+    ],
+    "Khaman Maluach": [
+      "floor",
+      "Solid floor"
+    ],
+    "Dylan Cardwell": [
+      "watch",
+      "Upside watch"
+    ],
+    "Bones Hyland": [
+      "watch",
+      "Upside watch"
+    ],
+    "Jordan Goodwin": [
+      "watch",
+      "Upside watch"
+    ],
+    "Keldon Johnson": [
+      "watch",
+      "Upside watch"
+    ],
+    "Ryan Kalkbrenner": [
+      "hold",
+      "Don’t chase"
+    ],
+    "Kelly Oubre Jr.": [
+      "hold",
+      "Hold off"
+    ],
+    "Jerami Grant": [
+      "hold",
+      "Hold off"
+    ],
+    "Alex Caruso": [
+      "hold",
+      "Hold off"
+    ],
+    "Walter Clayton": [
+      "hold",
+      "Hold off"
+    ],
+    "Sidy Cissoko": [
+      "hold",
+      "Hold off"
+    ],
+    "Julian Champagnie": [
+      "hold",
+      "Hold off"
+    ],
+    "Matisse Thybulle": [
+      "hold",
+      "Hold off"
+    ],
+    "Quenton Jackson": [
+      "hold",
+      "Hold off"
+    ],
+    "Luguentz Dort": [
+      "hold",
+      "Hold off"
+    ],
+    "Sion James": [
+      "pass",
+      "Pass"
+    ],
+    "Jamison Battle": [
+      "pass",
+      "Pass"
+    ],
+    "Dean Wade": [
+      "pass",
+      "Pass"
+    ],
+    "Patrick Williams": [
+      "pass",
+      "Pass"
+    ],
+    "Bilal Coulibaly": [
+      "pass",
+      "Pass"
+    ],
+    "Mario Hezonja": [
+      "pass",
+      "Pass"
+    ]
+  },
+  "picks": [
+    {
+      "player": "Klay Thompson",
+      "tier": "add",
+      "points": [
+        "Starting every game for Miami, and his minutes have climbed from 16 to 30+.",
+        "Last 5 games: 28.3 FP/G, the second-best recent stretch in the pool, including 42 and 37 FP games.",
+        "Usage of 21.5% and 61% true shooting. He’s a featured scorer, not a spot-up role player.",
+        "Yahoo lists him as probable, and Miami has 2 games left this week."
+      ]
+    },
+    {
+      "player": "Danny Wolf",
+      "tier": "add",
+      "points": [
+        "Biggest role change in the pool. He went from 5 DNPs to 3 straight starts at 29–36 minutes.",
+        "Last 3 games: 25.4 FP/G. Before that: 16.5.",
+        "Yahoo projects 680 points; this model projects about 1,710.",
+        "His role isn’t just filling in for Traoré: he started 2 games alongside him."
+      ]
+    },
+    {
+      "player": "Nolan Traoré",
+      "tier": "add",
+      "points": [
+        "Brooklyn’s starting point guard since Oct 27. Last 5 games: 29.2 FP/G, the best of any healthy player here.",
+        "38.0 FP/36 with 23% usage. The offense runs through him.",
+        "Listed questionable and missed Nov 11. Brooklyn has no game Friday, so check his status before Saturday.",
+        "If he’s cleared, he’s the best add on the board. Sitting out Friday costs you nothing."
+      ]
+    },
+    {
+      "player": "Brayden Burries",
+      "tier": "add",
+      "points": [
+        "Rookie who moved into Milwaukee’s starting lineup on Nov 2 and has started 6 straight.",
+        "Minutes went from 8–20 to 21–38. Last 5 games: 25.2 FP/G, including a 45 FP game.",
+        "Rookies who win a starting job usually keep it as the team develops them."
+      ]
+    },
+    {
+      "player": "Yves Missi",
+      "tier": "stash",
+      "points": [
+        "Highest ceiling in the pool: 51 FP on opening night. 33.6 PER and 56.5 FP/36 in his 2 games.",
+        "Out since Oct 23 with a left knee bone bruise. No return date.",
+        "If Yahoo lets you put him in one of your 3 IL slots, stashing him costs you nothing."
+      ]
+    },
+    {
+      "player": "Dylan Cardwell",
+      "tier": "watch",
+      "points": [
+        "Downgraded from my first report. His 29-minute game on Nov 10 came when Precious Achiuwa played only 13 minutes and then got a questionable tag.",
+        "Some of Cardwell’s rise may just be covering for Achiuwa. If Achiuwa is fine, Cardwell likely goes back to 15–20 minutes.",
+        "Still the best per-minute big man here (39.0 FP/36). Add him only if Achiuwa misses time."
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "tier": "floor",
+      "points": [
+        "Highest season total in your screenshots (281 Fan Pts) and 25.5 FP/G.",
+        "Minutes swing a lot: 13 to 40. He’s questionable after a 13-minute game on Nov 10.",
+        "A strong add if he’s healthy. Check Friday’s injury report first, since Sacramento plays tonight."
+      ]
+    },
+    {
+      "player": "Bones Hyland",
+      "tier": "watch",
+      "points": [
+        "51.9 FP/36, the best rate of any healthy player here. He scored 45 FP in 22 minutes on Nov 12.",
+        "Only 13 minutes a game, swinging from 3 to 22. Add him if he gets a second straight 20-minute game."
+      ]
+    }
+  ]
+}

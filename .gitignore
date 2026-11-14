@@ -1,0 +1,7 @@
+# Yahoo login tokens: never commit
+.yahoo_token.json
+.env
+__pycache__/
+*.pyc
+data/cache/
+out/

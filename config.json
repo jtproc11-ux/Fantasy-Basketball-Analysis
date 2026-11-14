@@ -1,0 +1,9 @@
+{
+  "season": 2027,
+  "scoring": {"PTS": 1, "TRB": 1.2, "AST": 1.5, "STL": 3, "BLK": 3, "TOV": -1},
+  "prior_minutes": 150,
+  "fallback_rate": 0.95,
+  "default_availability": 0.92,
+  "availability": {"Yves Missi": 0.75},
+  "request_delay_seconds": 4
+}

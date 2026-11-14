@@ -1,0 +1,285 @@
+<title>Waiver Wire Scouting Report</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: single scouting-report column, summary first, each chart a numbered exhibit with its reading underneath */
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --ink:#14171c; --ink2:#4b5260; --muted:#7b8291; --rule:#dfe3ea; --grid:#eceff4;
+  --s1:#2a78d6; --s1soft:#9ec5f4; --s2:#eb6834; --good:#1a8a4a; --bad:#c93b3b; --warn:#b57900;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif; --body:"Inter",system-ui,-apple-system,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111317; --panel:#1a1d23; --ink:#eef0f4; --ink2:#b7bdc9; --muted:#8a92a1; --rule:#2c313a; --grid:#252a32;
+  --s1:#3987e5; --s1soft:#1c5cab; --s2:#d95926; --good:#3fb872; --bad:#e66767; --warn:#e0a83a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111317; --panel:#1a1d23; --ink:#eef0f4; --ink2:#b7bdc9; --muted:#8a92a1; --rule:#2c313a; --grid:#252a32;
+  --s1:#3987e5; --s1soft:#1c5cab; --s2:#d95926; --good:#3fb872; --bad:#e66767; --warn:#e0a83a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+.wrap{max-width:1040px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--display);letter-spacing:.01em;text-wrap:balance;margin:0;line-height:1.1}
+h1{font-size:clamp(34px,6vw,52px);text-transform:uppercase}
+h2{font-size:26px;text-transform:uppercase}
+h3{font-size:19px}
+p{margin:0;max-width:68ch}
+.eyebrow{font:600 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--ink2);font-size:16px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font:12px/1.4 var(--mono);color:var(--muted)}
+.meta b{color:var(--ink2);font-weight:600}
+section{display:flex;flex-direction:column;gap:12px}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:18px;min-width:0}
+.ex{font:600 12px var(--mono);color:var(--s1);letter-spacing:.06em}
+.read{color:var(--ink2);font-size:14px}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+.pick{display:flex;flex-direction:column;gap:8px}
+.pick .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.pick .num{font:600 22px var(--mono);font-variant-numeric:tabular-nums}
+.pick .sub{font:12px var(--mono);color:var(--muted)}
+.pick ul{margin:0;padding-left:18px;color:var(--ink2);font-size:14px;display:flex;flex-direction:column;gap:4px}
+.chip{display:inline-block;font:600 11px/1 var(--mono);letter-spacing:.05em;text-transform:uppercase;padding:5px 7px;border-radius:4px;border:1px solid currentColor;white-space:nowrap}
+.t-add{color:var(--good)} .t-stash{color:var(--s1)} .t-floor{color:var(--ink2)} .t-watch{color:var(--warn)} .t-hold{color:var(--muted)} .t-pass{color:var(--bad)}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--ink2);font-size:11px}
+svg .lbl{fill:var(--ink);font-family:var(--body);font-size:12px}
+svg .axis{fill:var(--muted);font-size:10.5px}
+.scroll{overflow-x:auto}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font:12px var(--mono);color:var(--ink2);align-items:center}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:6px}
+.multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.mini{border:1px solid var(--rule);border-radius:8px;padding:10px 10px 6px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.mini .h{display:flex;justify-content:space-between;gap:6px;font-size:13px;font-weight:600}
+.mini .h span:last-child{font:11px var(--mono);color:var(--muted);font-weight:400}
+table{border-collapse:collapse;width:100%;font:12.5px var(--mono);font-variant-numeric:tabular-nums;min-width:860px}
+th,td{padding:7px 8px;text-align:right;border-bottom:1px solid var(--rule);white-space:nowrap}
+th{font-weight:600;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;user-select:none}
+th:first-child,td:first-child{text-align:left;font-family:var(--body);font-weight:600}
+th:focus-visible{outline:2px solid var(--s1)}
+td.heat{position:relative}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.notes .panel{display:flex;flex-direction:column;gap:6px}
+.notes ul{margin:0;padding-left:18px;color:var(--ink2);font-size:14px;display:flex;flex-direction:column;gap:4px}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font:12px/1.45 var(--mono);padding:8px 10px;border-radius:6px;max-width:260px;z-index:20;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+a{color:var(--s1)}
+@media (prefers-reduced-motion:no-preference){.bar{transition:opacity .15s}}
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:12px">
+    <span class="eyebrow" id="eyebrow">Yahoo H2H Points · Free agent pool</span>
+    <h1>Waiver Wire Scouting Report</h1>
+    <p class="lede">The <span id="count"></span> free agents from your screenshots, ranked by projected fantasy points for the rest of the season under your scoring (PTS 1, REB 1.2, AST 1.5, STL 3, BLK 3, TO −1). The focus is on players whose role is growing right now.</p>
+    <div class="meta"><span><b>Stats through</b> <span id="through"></span> games</span><span><b>Sources</b> Basketball-Reference box scores &amp; advanced, schedule</span><span><b>Scope</b> only players in your screenshots</span></div>
+  </header>
+
+  <section>
+    <h2>The calls</h2>
+    <div class="picks" id="picks"></div>
+  </section>
+
+  <section class="panel">
+    <span class="ex">EXHIBIT 1</span>
+    <h3>Rest-of-season ranking</h3>
+    <p class="read">Bars show projected fantasy points per game. The dot is what the player has averaged so far, and the number on the right is the projected rest-of-season total after games left and injury risk. A bar well to the right of its dot means the player's role is growing faster than his season average shows.</p>
+    <div class="legend"><span><span class="sw" style="background:var(--s1)"></span>Projected FP/G</span><span><span class="sw" style="background:var(--ink);border-radius:50%"></span>Season FP/G so far</span></div>
+    <div id="rank"></div>
+  </section>
+
+  <section class="panel">
+    <span class="ex">EXHIBIT 2</span>
+    <h3>Who is on the rise</h3>
+    <p class="read">Each dot compares a player's last 3 games with his games before that. Right means more minutes, up means more fantasy points. The top-right corner is where risers live. Missi and Patrick Williams are left out because they haven't played enough games for a before-and-after comparison.</p>
+    <div id="mom"></div>
+  </section>
+
+  <section class="panel">
+    <span class="ex">EXHIBIT 3</span>
+    <h3>Production rate vs. playing time</h3>
+    <p class="read">Fantasy points come from two things: how much a player produces per minute (across) and how many minutes he gets (up). The dashed curves mark 15, 20 and 25 FP per game. Players far to the right with few minutes, like Hyland and Missi, are the ones who jump if their minutes grow. Players high up but far left, like Sion James, get minutes but don't do much with them.</p>
+    <div id="rate"></div>
+  </section>
+
+  <section class="panel">
+    <span class="ex">EXHIBIT 4</span>
+    <h3>Where this model disagrees with Yahoo</h3>
+    <p class="read">Yahoo's "Proj Pts" from your screenshots compared with this model's rest-of-season total. Players whose screenshots showed season points instead of Yahoo projections aren't in this chart. Yahoo's projections were set before the season and adjust slowly, so large gaps flag players whose role has changed. <span id="ynote"></span></p>
+    <div class="legend"><span><span class="sw" style="background:var(--muted);border-radius:50%"></span>Yahoo Proj Pts</span><span><span class="sw" style="background:var(--s1);border-radius:50%"></span>This model</span></div>
+    <div id="dumb"></div>
+  </section>
+
+  <section class="panel">
+    <span class="ex">EXHIBIT 5</span>
+    <h3>Game-by-game fantasy points</h3>
+    <p class="read">Every game played this season, in ranking order. Dark bars are starts and light bars are bench games. Hover or tap a bar to see minutes. Look for bars climbing toward the right edge.</p>
+    <div class="legend"><span><span class="sw" style="background:var(--s1)"></span>Started</span><span><span class="sw" style="background:var(--s1soft)"></span>Bench</span><span>Dashed line = season FP/G</span></div>
+    <div class="multi" id="multi"></div>
+  </section>
+
+  <section class="panel">
+    <span class="ex">EXHIBIT 6</span>
+    <h3>Advanced metrics and schedule</h3>
+    <p class="read">Shading shows how each player ranks within this group (darker is better). FP/36 is fantasy points per 36 minutes, the cleanest measure of production. PER, TS% (true shooting), USG% (share of team plays used) and BPM (box plus/minus) are from Basketball-Reference. "Wk" is games left this fantasy week (<span id="wk"></span>), "Next" is games next week. Click a column header to sort.</p>
+    <div class="scroll"><table id="tbl"></table></div>
+  </section>
+
+  <section>
+    <h2>How the projection works</h2>
+    <div class="notes">
+      <div class="panel"><h3>Points per minute</h3><ul>
+        <li>This season's fantasy points per minute, blended with last season's rate. Last season counts as 150 minutes of evidence, so small samples like Missi's 2 games get pulled toward his normal level.</li>
+        <li>A 20% nudge toward the last 5 games, to catch real improvement.</li></ul></div>
+      <div class="panel"><h3>Minutes</h3><ul>
+        <li>50% last 3 games, 20% last 5, 30% season. Minutes are the clearest sign of a role change, so recent games count the most.</li>
+        <li>Projected FP/G = points per minute × projected minutes.</li></ul></div>
+      <div class="panel"><h3>Rest-of-season total</h3><ul>
+        <li>FP/G × team games left × expected availability: 92% for healthy players (normal missed games) and 75% for Missi, who is out with a knee bone bruise and has no return date.</li>
+        <li>Limits: there's no injury feed beyond the game logs, no news on depth charts, and nothing from NBA.com, which blocks cloud servers. Check news before you make a move.</li></ul></div>
+    </div>
+  </section>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const D=__DATA__;
+const NOTES=__NOTES__, META=__META__;
+const TIERS=NOTES.tiers||{};
+for(const d of D)if(!TIERS[d.player])TIERS[d.player]=['hold','Not rated'];
+document.getElementById('eyebrow').textContent+=' · '+META.date_label;
+document.getElementById('count').textContent=META.count;
+document.getElementById('through').textContent=new Date(META.stats_through+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+document.getElementById('ynote').textContent=NOTES.yahoo_note||'';
+document.getElementById('wk').textContent=META.week;
+const short=n=>{const p=n.split(' ');return p[0][0]+'. '+p.slice(1).join(' ')};
+const f1=x=>x==null?'–':(+x).toFixed(1), f0=x=>Math.round(x).toLocaleString();
+const by=n=>D.find(d=>d.player===n);
+const NS='http://www.w3.org/2000/svg';
+function el(t,a={},p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function txt(p,x,y,s,a={}){const t=el('text',{x,y,...a},p);t.textContent=s;return t}
+const tip=document.getElementById('tip');
+function hover(node,html){
+  const show=e=>{tip.innerHTML=html;tip.hidden=false;const pt=e.touches?e.touches[0]:e;let x=pt.clientX+14,y=pt.clientY+14;const w=tip.offsetWidth,h=tip.offsetHeight;if(x+w>innerWidth-8)x=pt.clientX-w-14;if(y+h>innerHeight-8)y=pt.clientY-h-14;tip.style.left=x+'px';tip.style.top=y+'px'};
+  node.addEventListener('mousemove',show);node.addEventListener('mouseleave',()=>tip.hidden=true);
+  node.addEventListener('touchstart',show,{passive:true});node.style.cursor='default';
+}
+document.addEventListener('touchstart',e=>{if(!e.target.closest('svg'))tip.hidden=true},{passive:true});
+const rng=(v,pad,zero)=>{let a=Math.min(...v)-pad,b=Math.max(...v)+pad;if(zero){a=Math.min(a,-pad);b=Math.max(b,pad)}return [Math.floor(a),Math.ceil(b)]};
+const ticks=(a,b,n)=>{const s=(b-a)/n,m=Math.pow(10,Math.floor(Math.log10(s))),st=[1,2,2.5,5,10].map(k=>k*m).find(k=>k>=s);const o=[];for(let v=Math.ceil(a/st)*st;v<=b+1e-9;v+=st)o.push(+v.toFixed(6));return o};
+
+/* ---------- Picks ---------- */
+const PICKS=(NOTES.picks||[]).filter(p=>by(p.player)).map(p=>[p.player,p.tier,p.points]);
+const pk=document.getElementById('picks');
+for(const [n,t,b] of PICKS){const d=by(n);const lab=TIERS[n][1];
+ const c=document.createElement('div');c.className='panel pick';
+ c.innerHTML=`<div class="top"><h3>${n.replace('Walter Clayton','Walter Clayton Jr.')}</h3><span class="chip t-${t}">${lab}</span></div>
+ <div class="top"><span><span class="num">${f1(d.PROJ)}</span> <span class="sub">proj FP/G</span></span><span class="sub">${d.team} · ${d.pos} · ROS ${f0(d.ROS_TOTAL)}</span></div>
+ <ul>${b.map(x=>`<li>${x}</li>`).join('')}</ul>`;pk.appendChild(c)}
+
+/* ---------- Exhibit 1: ranking ---------- */
+(function(){
+ const rows=[...D].sort((a,b)=>b.ROS_TOTAL-a.ROS_TOTAL);
+ const W=900,lw=150,cw=94,rw=64,rh=26,top=22,H=top+rows.length*rh+26;
+ const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Ranking of projected fantasy points per game'});
+ const x0=lw+cw,x1=W-rw-10,mx=Math.ceil(Math.max(...D.map(d=>Math.max(d.PROJ,d.FPPG)))/4)*4+2,sx=v=>x0+(v/mx)*(x1-x0);
+ for(const t of ticks(0,mx,4)){el('line',{x1:sx(t),x2:sx(t),y1:top-6,y2:H-22,stroke:'var(--grid)'},svg);txt(svg,sx(t),H-8,t,{class:'axis','text-anchor':'middle'})}
+ txt(svg,x1+rw,top-8,'ROS pts',{class:'axis','text-anchor':'end'});
+ rows.forEach((d,i)=>{const y=top+i*rh,cy=y+rh/2;const g=el('g',{},svg);
+  el('rect',{x:0,y,width:W,height:rh,fill:'transparent'},g);
+  txt(g,0,cy+4,(i+1)+'. '+short(d.player),{class:'lbl'});
+  const [cls,lab]=TIERS[d.player];
+  const chipColor={add:'var(--good)',stash:'var(--s1)',floor:'var(--ink2)',watch:'var(--warn)',hold:'var(--muted)',pass:'var(--bad)'}[cls];
+  txt(g,lw,cy+4,lab.toUpperCase(),{style:`fill:${chipColor};font-size:10px;font-weight:600`});
+  el('rect',{class:'bar',x:x0,y:cy-6,width:Math.max(2,sx(d.PROJ)-x0),height:12,rx:3,fill:'var(--s1)'},g);
+  el('circle',{cx:sx(d.FPPG),cy,r:4.5,fill:'var(--ink)',stroke:'var(--panel)','stroke-width':2},g);
+  txt(g,x1+rw,cy+4,f0(d.ROS_TOTAL),{'text-anchor':'end',style:'fill:var(--ink);font-weight:600'});
+  hover(g,`<b>${d.player}</b> · ${d.team}<br>Projected ${f1(d.PROJ)} FP/G on ${f1(d.PROJ_MIN)} min<br>Season so far ${f1(d.FPPG)} FP/G (${d.G} GP)<br>ROS total ${f0(d.ROS_TOTAL)} · availability ${Math.round(d.AVAIL*100)}%`);
+ });
+ txt(svg,(x0+x1)/2,H+8,'Fantasy points per game',{class:'axis','text-anchor':'middle'});
+svg.setAttribute('viewBox',`0 0 ${W} ${H+14}`);
+ const s=document.createElement('div');s.className='scroll';s.appendChild(svg);svg.style.minWidth='640px';document.getElementById('rank').appendChild(s);
+})();
+
+/* ---------- scatter helper ---------- */
+function scatter(id,pts,{xd,yd,xl,yl,quad,iso}){
+ const W=900,H=480,m={l:52,r:24,t:18,b:46};
+ const sx=v=>m.l+(v-xd[0])/(xd[1]-xd[0])*(W-m.l-m.r), sy=v=>H-m.b-(v-yd[0])/(yd[1]-yd[0])*(H-m.t-m.b);
+ const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':xl+' vs '+yl});
+ for(const t of ticks(xd[0],xd[1],8)){el('line',{x1:sx(t),x2:sx(t),y1:m.t,y2:H-m.b,stroke:'var(--grid)'},svg);txt(svg,sx(t),H-m.b+16,t,{class:'axis','text-anchor':'middle'})}
+ for(const t of ticks(yd[0],yd[1],6)){el('line',{x1:m.l,x2:W-m.r,y1:sy(t),y2:sy(t),stroke:'var(--grid)'},svg);txt(svg,m.l-8,sy(t)+4,t,{class:'axis','text-anchor':'end'})}
+ if(quad){el('rect',{x:sx(0),y:m.t,width:W-m.r-sx(0),height:sy(0)-m.t,fill:'var(--good)',opacity:.07},svg);
+  el('line',{x1:sx(0),x2:sx(0),y1:m.t,y2:H-m.b,stroke:'var(--muted)'},svg);el('line',{x1:m.l,x2:W-m.r,y1:sy(0),y2:sy(0),stroke:'var(--muted)'},svg);
+  txt(svg,W-m.r-6,m.t+16,'RISING: more minutes, more points',{'text-anchor':'end',style:'fill:var(--good);font-weight:600'});
+  txt(svg,m.l+6,H-m.b-8,'FADING',{style:'fill:var(--bad);font-weight:600'})}
+ if(iso){for(const fp of iso){let dpath='';for(let r=xd[0];r<=xd[1];r+=0.25){const mn=fp*36/r;if(mn<yd[0]||mn>yd[1])continue;dpath+=(dpath?'L':'M')+sx(r).toFixed(1)+','+sy(mn).toFixed(1)}
+   el('path',{d:dpath,fill:'none',stroke:'var(--muted)','stroke-dasharray':'4 4','stroke-width':1.2},svg);
+   const rx=Math.min(xd[1]-1,fp*36/(yd[1]-1.2));txt(svg,sx(rx)+4,sy(fp*36/rx)+12,fp+' FP/G',{class:'axis'})}}
+ txt(svg,(m.l+W-m.r)/2,H-8,xl,{class:'axis','text-anchor':'middle'});
+ const yt=txt(svg,14,(m.t+H-m.b)/2,yl,{class:'axis','text-anchor':'middle',transform:`rotate(-90 14 ${(m.t+H-m.b)/2})`});
+ // labels with simple collision nudge
+ const placed=[];
+ pts.sort((a,b)=>(TIERS[a.d.player][0]==='add')-(TIERS[b.d.player][0]==='add'));
+ for(const p of pts){const cx=sx(p.x),cy=sy(p.y);const hi=['add','stash','watch'].includes(TIERS[p.d.player][0]);
+  const g=el('g',{},svg);el('circle',{cx,cy,r:14,fill:'transparent'},g);
+  el('circle',{cx,cy,r:hi?7:5.5,fill:hi?'var(--s2)':'var(--s1)',stroke:'var(--panel)','stroke-width':2},g);
+  let ly=cy+4,lx=cx+10,anchor='start';if(cx>W-150){lx=cx-10;anchor='end'}
+  for(let k=0;k<6&&placed.some(q=>Math.abs(q.y-ly)<13&&Math.abs(q.x-lx)<95);k++)ly+=(k%2?-1:1)*13*(k+1);
+  placed.push({x:lx,y:ly});
+  txt(g,lx,ly,short(p.d.player),{class:'lbl','text-anchor':anchor,style:hi?'font-weight:600':''});
+  hover(g,p.tip)}
+ const s=document.createElement('div');s.className='scroll';svg.style.minWidth='640px';s.appendChild(svg);document.getElementById(id).appendChild(s);
+}
+scatter('mom',D.filter(d=>d.MIN_RISE!=null&&d.MIN_EARLY!=null).map(d=>({d,x:d.MIN_RISE,y:d.FP_RISE,
+  tip:`<b>${d.player}</b><br>Minutes ${f1(d.MIN_EARLY)} → ${f1(d.MIN3)} (last 3)<br>FP/G ${f1(d.FP_EARLY)} → ${f1(d.FP3)}<br>Starts in last 3: ${d.GS3}`})),
+  {xd:rng(D.filter(d=>d.MIN_RISE!=null).map(d=>d.MIN_RISE),2,true),yd:rng(D.filter(d=>d.FP_RISE!=null).map(d=>d.FP_RISE),2,true),xl:'Change in minutes per game (last 3 games vs. earlier)',yl:'Change in FP/G',quad:true});
+scatter('rate',D.map(d=>({d,x:d.FP36,y:d.PROJ_MIN,tip:`<b>${d.player}</b><br>${f1(d.FP36)} FP per 36 min<br>Projected ${f1(d.PROJ_MIN)} min/game<br>PER ${f1(d.PER)} · USG ${f1(d.USG)}%`})),
+  {xd:rng(D.map(d=>d.FP36),3),yd:rng(D.map(d=>d.PROJ_MIN),2),xl:'Fantasy points per 36 minutes (season)',yl:'Projected minutes per game',iso:[15,20,25]});
+document.querySelector('#mom').insertAdjacentHTML('afterbegin','<div class="legend" style="margin-bottom:6px"><span><span class="sw" style="background:var(--s2);border-radius:50%"></span>Recommended add, stash or watch</span><span><span class="sw" style="background:var(--s1);border-radius:50%"></span>Others</span></div>');
+
+/* ---------- Exhibit 4: dumbbell ---------- */
+(function(){
+ const rows=D.filter(d=>d.YAHOO!=null);if(!rows.length){document.getElementById('dumb').closest('section').hidden=true;return}rows.sort((a,b)=>(b.ROS_TOTAL-b.YAHOO)-(a.ROS_TOTAL-a.YAHOO));
+ const W=900,lw=150,rw=70,rh=24,top=10,H=top+rows.length*rh+34,mx=Math.ceil(Math.max(...rows.map(d=>Math.max(d.YAHOO,d.ROS_TOTAL)))/200)*200;
+ const x0=lw,x1=W-rw,sx=v=>x0+v/mx*(x1-x0);
+ const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Yahoo projection vs model projection'});
+ for(const t of ticks(0,mx,6)){el('line',{x1:sx(t),x2:sx(t),y1:top,y2:H-30,stroke:'var(--grid)'},svg);txt(svg,sx(t),H-16,t.toLocaleString(),{class:'axis','text-anchor':'middle'})}
+ txt(svg,W,top+8,'Gap',{class:'axis','text-anchor':'end'});
+ rows.forEach((d,i)=>{const cy=top+i*rh+rh/2+6,g=el('g',{},svg);el('rect',{x:0,y:cy-rh/2,width:W,height:rh,fill:'transparent'},g);
+  txt(g,0,cy+4,short(d.player),{class:'lbl'});
+  el('line',{x1:sx(d.YAHOO),x2:sx(d.ROS_TOTAL),y1:cy,y2:cy,stroke:'var(--muted)','stroke-width':2},g);
+  el('circle',{cx:sx(d.YAHOO),cy,r:5,fill:'var(--muted)',stroke:'var(--panel)','stroke-width':2},g);
+  el('circle',{cx:sx(d.ROS_TOTAL),cy,r:5.5,fill:'var(--s1)',stroke:'var(--panel)','stroke-width':2},g);
+  const gap=d.ROS_TOTAL-d.YAHOO;txt(g,W,cy+4,(gap>0?'+':'')+f0(gap),{'text-anchor':'end',style:`fill:${gap>0?'var(--good)':'var(--bad)'};font-weight:600`});
+  hover(g,`<b>${d.player}</b><br>Yahoo Proj Pts: ${d.YAHOO.toLocaleString()}<br>This model: ${f0(d.ROS_TOTAL)}<br>Gap: ${(gap>0?'+':'')+f0(gap)}`)});
+ txt(svg,(x0+x1)/2,H-2,'Rest-of-season fantasy points',{class:'axis','text-anchor':'middle'});
+ const s=document.createElement('div');s.className='scroll';svg.style.minWidth='640px';s.appendChild(svg);document.getElementById('dumb').appendChild(s);
+})();
+
+/* ---------- Exhibit 5: small multiples ---------- */
+(function(){
+ const rows=[...D].sort((a,b)=>b.ROS_TOTAL-a.ROS_TOTAL),mx=Math.max(55,...D.flatMap(d=>d.log.map(g=>g.fp)))+2,W=220,H=86,b=14;
+ const host=document.getElementById('multi');
+ for(const d of rows){const c=document.createElement('div');c.className='mini';
+  c.innerHTML=`<div class="h"><span>${short(d.player)}</span><span>L3 ${f1(d.FP3)} · Szn ${f1(d.FPPG)}</span></div>`;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':d.player+' game log'});
+  const sy=v=>H-b-Math.max(0,v)/mx*(H-b-4),n=Math.max(d.log.length,12),bw=(W-4)/n;
+  for(const t of [0,20,40]){el('line',{x1:0,x2:W,y1:sy(t),y2:sy(t),stroke:'var(--grid)'},svg);if(t)txt(svg,W,sy(t)-2,t,{class:'axis','text-anchor':'end',style:'font-size:9px'})}
+  d.log.forEach((g,i)=>{const x=2+i*bw,gg=el('g',{},svg);el('rect',{x,y:0,width:bw,height:H,fill:'transparent'},gg);
+   el('rect',{x:x+1,y:sy(g.fp),width:bw-2,height:Math.max(2,H-b-sy(g.fp)),rx:2,fill:g.gs?'var(--s1)':'var(--s1soft)'},gg);
+   hover(gg,`<b>${short(d.player)}</b> · ${g.date.slice(5)}<br>${g.fp} FP in ${g.min} min${g.gs?' (start)':''}`)});
+  el('line',{x1:0,x2:W,y1:sy(d.FPPG),y2:sy(d.FPPG),stroke:'var(--ink)','stroke-dasharray':'3 3'},svg);
+  txt(svg,2,H-2,d.log[0]?d.log[0].date.slice(5):'',{class:'axis',style:'font-size:9px'});
+  if(d.log.length)txt(svg,2+(d.log.length-1)*bw+bw/2,H-2,d.log.at(-1).date.slice(5),{class:'axis','text-anchor':'middle',style:'font-size:9px'});
+  c.appendChild(svg);host.appendChild(c)}
+})();
+
+/* ---------- Exhibit 6: table ---------- */
+(function(){
+ const cols=[['player','Player',null],['team','Tm',null],['PROJ','Proj FP/G',1],['ROS_TOTAL','ROS pts',1],['FPPG','Szn FP/G',1],['FP3','L3 FP/G',1],['MIN3','L3 Min',1],['FP36','FP/36',1],['PER','PER',1],['TS','TS%',1],['USG','USG%',1],['BPM','BPM',1],['G','GP',null],['wk_left','Wk',null],['next_wk','Next',null]];
+ const t=document.getElementById('tbl');let key='ROS_TOTAL',dir=-1;
+ const rank={};for(const [k,,h] of cols)if(h){const v=D.map(d=>d[k]).filter(x=>x!=null).sort((a,b)=>a-b);rank[k]=x=>x==null?0:v.indexOf(x)/(v.length-1)}
+ function draw(){const rows=[...D].sort((a,b)=>((a[key]??-1e9)>(b[key]??-1e9)?1:-1)*dir*(typeof a[key]==='string'?-1:1));
+  t.innerHTML='<thead><tr>'+cols.map(([k,l])=>`<th tabindex="0" data-k="${k}" aria-sort="${k===key?(dir<0?'descending':'ascending'):'none'}">${l}${k===key?(dir<0?' ▾':' ▴'):''}</th>`).join('')+'</tr></thead><tbody>'+
+  rows.map(d=>'<tr>'+cols.map(([k,,h])=>{let v=d[k];const fmt=k==='TS'?(v*100).toFixed(1):k==='ROS_TOTAL'?f0(v):k==='player'?d.player.replace('Walter Clayton','Walter Clayton Jr.'):typeof v==='number'&&!Number.isInteger(v)?f1(v):v??'–';
+   const bg=h?`background:color-mix(in oklab, var(--s1) ${Math.round(rank[k](v)*38)}%, transparent)`:'';return `<td style="${bg}">${fmt}</td>`}).join('')+'</tr>').join('')+'</tbody>';
+  t.querySelectorAll('th').forEach(th=>{const go=()=>{const k=th.dataset.k;if(k===key)dir*=-1;else{key=k;dir=typeof D[0][k]==='string'?1:-1}draw()};th.onclick=go;th.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}})}
+ draw();
+})();
+</script>
