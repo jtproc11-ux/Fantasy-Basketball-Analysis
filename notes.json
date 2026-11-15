@@ -5,25 +5,29 @@
       "add",
       "Add now"
     ],
-    "De'Andre Hunter": [
+    "Klay Thompson": [
       "add",
-      "Add now"
-    ],
-    "Nolan Traoré": [
-      "add",
-      "Add now (probable)"
+      "Add now: back from ankle"
     ],
     "Tari Eason": [
       "add",
       "Add now"
     ],
-    "Tristan Da Silva": [
-      "floor",
-      "Solid floor"
+    "Cam Spencer": [
+      "add",
+      "Short-term add"
     ],
-    "Kyle Kuzma": [
-      "floor",
-      "Solid floor"
+    "Nolan Traoré": [
+      "add",
+      "Add if you have room"
+    ],
+    "Precious Achiuwa": [
+      "watch",
+      "Ankle, questionable Sun"
+    ],
+    "Mikel Brown Jr.": [
+      "watch",
+      "Upside watch"
     ],
     "Keldon Johnson": [
       "floor",
@@ -45,43 +49,27 @@
       "floor",
       "Solid floor"
     ],
-    "Yves Missi": [
-      "stash",
-      "Stash on IL"
-    ],
-    "Klay Thompson": [
-      "watch",
-      "Ankle, may return Sat"
-    ],
-    "Precious Achiuwa": [
-      "watch",
-      "Add when healthy"
-    ],
     "Meleek Thomas": [
       "watch",
       "Upside watch"
     ],
-    "Mikel Brown Jr.": [
+    "Robert Williams": [
       "watch",
-      "Illness, upside watch"
-    ],
-    "Dylan Cardwell": [
-      "watch",
-      "Role didn't grow"
+      "Great per minute, few minutes"
     ],
     "Alex Caruso": [
       "watch",
       "Upside watch"
     ],
-    "Charles Bassey": [
+    "Dylan Cardwell": [
       "watch",
-      "Upside watch"
+      "Only if Achiuwa sits"
     ],
     "Mo Bamba": [
       "watch",
       "Upside watch"
     ],
-    "Bones Hyland": [
+    "Charles Bassey": [
       "watch",
       "Upside watch"
     ],
@@ -91,11 +79,19 @@
     ],
     "Collin Sexton": [
       "watch",
-      "Forehead cut, day-to-day"
+      "Questionable, check"
+    ],
+    "Bones Hyland": [
+      "watch",
+      "Upside watch"
     ],
     "Jordan Goodwin": [
       "watch",
       "Upside watch"
+    ],
+    "Aaron Nesmith": [
+      "hold",
+      "Questionable, check"
     ],
     "Brayden Burries": [
       "hold",
@@ -105,19 +101,7 @@
       "hold",
       "Minutes cut"
     ],
-    "Aaron Nesmith": [
-      "hold",
-      "Hand/wrist, check"
-    ],
-    "Ryan Kalkbrenner": [
-      "hold",
-      "Don’t chase"
-    ],
     "Max Strus": [
-      "hold",
-      "Hold off"
-    ],
-    "Quenton Jackson": [
       "hold",
       "Hold off"
     ],
@@ -125,9 +109,13 @@
       "hold",
       "Hold off"
     ],
-    "Jerami Grant": [
+    "Quenton Jackson": [
       "hold",
       "Hold off"
+    ],
+    "Ryan Kalkbrenner": [
+      "hold",
+      "Don’t chase"
     ],
     "Jordan Poole": [
       "hold",
@@ -145,11 +133,15 @@
       "hold",
       "Hold off"
     ],
-    "Andrew Wiggins": [
+    "Jaylon Tyson": [
+      "hold",
+      "Hold off"
+    ],
+    "Bilal Coulibaly": [
       "pass",
       "Pass"
     ],
-    "Bilal Coulibaly": [
+    "Andrew Wiggins": [
       "pass",
       "Pass"
     ],
@@ -157,17 +149,21 @@
       "pass",
       "Pass"
     ],
+    "Walter Clayton": [
+      "pass",
+      "Pass"
+    ],
     "Dennis Schröder": [
       "pass",
       "Out ~2 weeks"
     ],
+    "Jerami Grant": [
+      "pass",
+      "Head injury, out"
+    ],
     "Jalen Williams": [
       "pass",
       "Pass: long-term injury"
-    ],
-    "Jaylon Tyson": [
-      "hold",
-      "Hold off"
     ]
   },
   "picks": [
@@ -175,72 +171,63 @@
       "player": "Danny Wolf",
       "tier": "add",
       "points": [
-        "Still the top healthy free agent: 3 straight starts at 32.2 minutes per game.",
-        "Last 3 games: 25.4 FP/G, up from 16.5 earlier. Projects for 26.2 FP/G, best in the pool.",
-        "Only 11% rostered (up from 8% yesterday). 1 game left this week, 3 next week."
+        "Still the top projection in the pool at 26.2 FP/G, after 3 straight starts at 32.2 minutes per game.",
+        "Saturday at Memphis: 14 points, 6 rebounds and a block in 28 minutes (about 24 fantasy points) in a 19-point loss.",
+        "17% rostered, up from 11% yesterday. No games left this week, 3 next week."
       ]
     },
     {
-      "player": "De'Andre Hunter",
+      "player": "Klay Thompson",
       "tier": "add",
       "points": [
-        "New add today. Played 41.5 minutes Friday against Portland: 24 points, 5 rebounds, 2 steals (38 fantasy points).",
-        "35.6 minutes per game over his last 3 starts, with 25.6 FP/G. Projects for 24.4 FP/G, tied for 2nd in the pool.",
-        "With Precious Achiuwa out (ankle), Sacramento leaned on its starters rather than backup bigs. 20% rostered."
-      ]
-    },
-    {
-      "player": "Nolan Traoré",
-      "tier": "add",
-      "points": [
-        "Calf looks fine: he practiced Friday and is listed probable for Saturday at Memphis.",
-        "Last 3 games played: 28.7 FP/G with 38.0 FP/36, an elite per-minute rate.",
-        "Mikel Brown Jr. (illness) is questionable, which could mean more ball for Traoré. 23% rostered."
+        "Upgraded from watch. His ankle held up Saturday: 26 points with 6 threes, 4 assists and a block (about 39 fantasy points).",
+        "That came in only 20 minutes of a 137-117 blowout, so the playing time was not a concern.",
+        "Before the ankle: 3 straight starts, 28.2 minutes and 26.4 FP/G. 41% rostered. 3 games next week."
       ]
     },
     {
       "player": "Tari Eason",
       "tier": "add",
       "points": [
-        "Newly available. 14 points and 11 rebounds in 33 minutes off the bench Friday against Utah (29 fantasy points).",
-        "24.0 FP/G for the season and 35.5 FP/36, with steals and blocks keeping his floor high.",
-        "36% rostered, the most popular of today's adds, so act first if you want him."
+        "Best per-minute player among the healthy adds: 35.5 FP/36, with steals and blocks keeping his floor high.",
+        "24.0 FP/G for the season on 24.9 minutes per game over his last 3. Projects for 23.5 FP/G.",
+        "Plays Sunday, then 3 games next week. 36% rostered, so he may not last."
       ]
     },
     {
-      "player": "Tristan Da Silva",
+      "player": "Cam Spencer",
+      "tier": "add",
+      "points": [
+        "New add. With Ty Jerome and Zach Edey out, he had 17 points and 8 assists Saturday (about 33 fantasy points).",
+        "39.5 FP/36 for the season, but only 20.3 minutes per game over his last 3, so his value depends on those injuries.",
+        "Memphis plays 4 games next week, the most among the top options. Jerami Grant (head) is also out. 24% rostered."
+      ]
+    },
+    {
+      "player": "Nolan Traoré",
+      "tier": "add",
+      "points": [
+        "Played through the calf Saturday but only managed 11 points and 2 assists in 20 minutes (about 16 fantasy points).",
+        "Before that, 28.7 FP/G over his last 3 games with 38.0 FP/36, an elite per-minute rate.",
+        "Moved behind Klay and Spencer. Still worth a spot if you have one: 22% rostered, 3 games next week."
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "tier": "watch",
+      "points": [
+        "Questionable for Sunday against OKC with left ankle soreness. He missed Friday, his first absence this season.",
+        "When healthy: 25.5 FP/G and 35.1 FP/36, the second-best projection in the pool (23.9 FP/G).",
+        "Add him once he's cleared. If he sits again, Dylan Cardwell gets a look as a one-game fill-in. 24% rostered."
+      ]
+    },
+    {
+      "player": "Keldon Johnson",
       "tier": "floor",
       "points": [
-        "Back from his calf strain and playing big minutes again: 33.4 per game over his last 3.",
-        "Projects for 24.4 FP/G. Low per-minute rate (26.4 FP/36), but the minutes keep his floor steady.",
-        "No games left this week, then 4 next week: the best schedule among the top options."
-      ]
-    },
-    {
-      "player": "Klay Thompson",
-      "tier": "watch",
-      "points": [
-        "Missed Friday against Cleveland with left ankle soreness. He has said he hopes to play Saturday at Detroit.",
-        "When healthy: 3 straight starts, 28.2 minutes and 26.4 FP/G over his last 3.",
-        "41% rostered. If he's cleared Saturday, he moves up to an add."
-      ]
-    },
-    {
-      "player": "Brayden Burries",
-      "tier": "hold",
-      "points": [
-        "Downgraded from yesterday's add. His minutes have dropped 4 straight games: 28.6, 25.9, 22.9, then 19.1 Friday.",
-        "Only 14.3 FP/G over his last 3, down from 21.4 earlier, with 3 points in 2 of his last 3 games.",
-        "Still starting, so worth watching, but there's no reason to add him now."
-      ]
-    },
-    {
-      "player": "Dylan Cardwell",
-      "tier": "watch",
-      "points": [
-        "Downgraded from yesterday's short-term add. With Achiuwa out Friday, Keegan Murray started and Cardwell played just 12.5 minutes.",
-        "16 fantasy points in that game. His 40.0 FP/36 is great, but only if he gets minutes.",
-        "Revisit only if Sacramento's center minutes open up further."
+        "Steady bench role: 26.5 minutes and 24.2 FP/G over his last 3, up from 23.5 minutes earlier.",
+        "Projects for 22.6 FP/G, and only 10% rostered.",
+        "Plays Sunday, then 3 games next week. A safe fill-in if the adds above are gone."
       ]
     }
   ]
