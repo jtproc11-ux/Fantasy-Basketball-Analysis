@@ -5,27 +5,23 @@
       "add",
       "Add now"
     ],
-    "Klay Thompson": [
-      "add",
-      "Add now: back from ankle"
-    ],
     "Tari Eason": [
       "add",
       "Add now"
     ],
+    "Mo Bamba": [
+      "add",
+      "Add now: starting C"
+    ],
     "Cam Spencer": [
+      "add",
+      "Add now"
+    ],
+    "Tyrese Proctor": [
       "add",
       "Short-term add"
     ],
-    "Nolan Traoré": [
-      "add",
-      "Add if you have room"
-    ],
-    "Precious Achiuwa": [
-      "watch",
-      "Ankle, questionable Sun"
-    ],
-    "Mikel Brown Jr.": [
+    "Jordan Goodwin": [
       "watch",
       "Upside watch"
     ],
@@ -33,19 +29,7 @@
       "floor",
       "Solid floor"
     ],
-    "Julian Champagnie": [
-      "floor",
-      "Solid floor"
-    ],
-    "Collin Gillespie": [
-      "floor",
-      "Solid floor"
-    ],
-    "Ziaire Williams": [
-      "floor",
-      "Solid floor"
-    ],
-    "Khaman Maluach": [
+    "Jamal Shead": [
       "floor",
       "Solid floor"
     ],
@@ -53,55 +37,55 @@
       "watch",
       "Upside watch"
     ],
-    "Robert Williams": [
+    "Naji Marshall": [
+      "floor",
+      "Solid floor"
+    ],
+    "Nolan Traoré": [
+      "hold",
+      "Minutes down"
+    ],
+    "Precious Achiuwa": [
       "watch",
-      "Great per minute, few minutes"
+      "Leg, missed 2 straight"
     ],
     "Alex Caruso": [
       "watch",
       "Upside watch"
     ],
+    "Quenton Jackson": [
+      "hold",
+      "Hold off"
+    ],
+    "Robert Williams": [
+      "watch",
+      "Great per minute, few minutes"
+    ],
+    "Brayden Burries": [
+      "hold",
+      "Hold off"
+    ],
+    "Max Strus": [
+      "hold",
+      "Hold off"
+    ],
+    "Jaylon Tyson": [
+      "hold",
+      "Ankle, questionable"
+    ],
     "Dylan Cardwell": [
       "watch",
       "Only if Achiuwa sits"
     ],
-    "Mo Bamba": [
-      "watch",
-      "Upside watch"
+    "Patrick Williams": [
+      "hold",
+      "Hold off"
     ],
-    "Charles Bassey": [
-      "watch",
-      "Upside watch"
-    ],
-    "Tyrese Proctor": [
-      "watch",
-      "Upside watch"
-    ],
-    "Collin Sexton": [
-      "watch",
-      "Questionable, check"
-    ],
-    "Bones Hyland": [
-      "watch",
-      "Upside watch"
-    ],
-    "Jordan Goodwin": [
+    "Mikel Brown Jr.": [
       "watch",
       "Upside watch"
     ],
     "Aaron Nesmith": [
-      "hold",
-      "Questionable, check"
-    ],
-    "Brayden Burries": [
-      "hold",
-      "Minutes fading"
-    ],
-    "Kris Dunn": [
-      "hold",
-      "Minutes cut"
-    ],
-    "Max Strus": [
       "hold",
       "Hold off"
     ],
@@ -109,57 +93,73 @@
       "hold",
       "Hold off"
     ],
-    "Quenton Jackson": [
-      "hold",
-      "Hold off"
+    "Julian Champagnie": [
+      "floor",
+      "Solid floor"
     ],
-    "Ryan Kalkbrenner": [
-      "hold",
-      "Don’t chase"
+    "Bones Hyland": [
+      "watch",
+      "Upside watch"
     ],
-    "Jordan Poole": [
-      "hold",
-      "Hold off"
-    ],
-    "Patrick Williams": [
-      "hold",
-      "Hold off"
-    ],
-    "Oso Ighodaro": [
-      "hold",
-      "Hold off"
-    ],
-    "Obi Toppin": [
-      "hold",
-      "Hold off"
-    ],
-    "Jaylon Tyson": [
-      "hold",
-      "Hold off"
-    ],
-    "Bilal Coulibaly": [
-      "pass",
-      "Pass"
-    ],
-    "Andrew Wiggins": [
-      "pass",
-      "Pass"
+    "Charles Bassey": [
+      "watch",
+      "Upside watch"
     ],
     "Jake LaRavia": [
       "pass",
       "Pass"
     ],
-    "Walter Clayton": [
+    "Quentin Grimes": [
       "pass",
       "Pass"
     ],
-    "Dennis Schröder": [
-      "pass",
-      "Out ~2 weeks"
+    "Ziaire Williams": [
+      "floor",
+      "Solid floor"
+    ],
+    "Ryan Kalkbrenner": [
+      "hold",
+      "Don’t chase"
     ],
     "Jerami Grant": [
+      "hold",
+      "Missed Sat, check status"
+    ],
+    "Javon Small": [
       "pass",
-      "Head injury, out"
+      "Pass"
+    ],
+    "Bilal Coulibaly": [
+      "pass",
+      "Pass"
+    ],
+    "T.J. McConnell": [
+      "watch",
+      "Great per minute, few minutes"
+    ],
+    "Dennis Schröder": [
+      "pass",
+      "Hamstring, out ~1 week"
+    ],
+    "Collin Sexton": [
+      "watch",
+      "Upside watch"
+    ],
+    "Sion James": [
+      "pass",
+      "Pass"
+    ],
+    "Jaxson Hayes": [
+      "pass",
+      "Knee, out"
+    ],
+    "Reed Sheppard": [
+      "hold",
+      "Hold off"
+    ],
+    "Kris Dunn": [
+      "pass",
+      "Minutes cut"
     ],
     "Jalen Williams": [
       "pass",
@@ -168,66 +168,66 @@
   },
   "picks": [
     {
-      "player": "Danny Wolf",
+      "player": "Mo Bamba",
       "tier": "add",
       "points": [
-        "Still the top projection in the pool at 26.2 FP/G, after 3 straight starts at 32.2 minutes per game.",
-        "Saturday at Memphis: 14 points, 6 rebounds and a block in 28 minutes (about 24 fantasy points) in a 19-point loss.",
-        "17% rostered, up from 11% yesterday. No games left this week, 3 next week."
+        "New add. With Jaxson Hayes (knee) and Jusuf Nurkić (foot) both out, he started Sunday: 26 points, 5 rebounds, 2 steals and a block in 36 minutes (46 fantasy points).",
+        "43.9 FP/36 is the best rate among the top adds, and he's averaged 28.7 FP/G over his last 3.",
+        "Utah plays 4 games this week. Nurkić isn't due back for re-evaluation until around Nov. 20. 17% rostered."
       ]
     },
     {
-      "player": "Klay Thompson",
+      "player": "Danny Wolf",
       "tier": "add",
       "points": [
-        "Upgraded from watch. His ankle held up Saturday: 26 points with 6 threes, 4 assists and a block (about 39 fantasy points).",
-        "That came in only 20 minutes of a 137-117 blowout, so the playing time was not a concern.",
-        "Before the ankle: 3 straight starts, 28.2 minutes and 26.4 FP/G. 41% rostered. 3 games next week."
+        "Still tied for the top projection in the pool at 26.0 FP/G, after 4 straight starts at 31.1 minutes per game over his last 3.",
+        "26.5 FP/G over his last 3 games, including 36 fantasy points on Nov. 11.",
+        "18% rostered. 3 games this week, 4 next week."
       ]
     },
     {
       "player": "Tari Eason",
       "tier": "add",
       "points": [
-        "Best per-minute player among the healthy adds: 35.5 FP/36, with steals and blocks keeping his floor high.",
-        "24.0 FP/G for the season on 24.9 minutes per game over his last 3. Projects for 23.5 FP/G.",
-        "Plays Sunday, then 3 games next week. 36% rostered, so he may not last."
+        "Minutes are up to 28.6 per game over his last 3 games, and Sunday's 25 points and 7 rebounds came to 34 fantasy points.",
+        "35.9 FP/36 for the season, with a 26.0 FP/G projection that ties for the best in the pool.",
+        "39% rostered, the highest of the top adds, so he may not last. 3 games this week."
       ]
     },
     {
       "player": "Cam Spencer",
       "tier": "add",
       "points": [
-        "New add. With Ty Jerome and Zach Edey out, he had 17 points and 8 assists Saturday (about 33 fantasy points).",
-        "39.5 FP/36 for the season, but only 20.3 minutes per game over his last 3, so his value depends on those injuries.",
-        "Memphis plays 4 games next week, the most among the top options. Jerami Grant (head) is also out. 24% rostered."
+        "Ty Jerome (hip) is out again Monday and Zach Edey (ankle) is questionable, so his bigger role should continue.",
+        "Started Saturday: 17 points, 8 assists and 2 steals in 34 minutes (33 fantasy points). 26.4 FP/G over his last 3.",
+        "Memphis plays 4 games this week. 26% rostered."
       ]
     },
     {
-      "player": "Nolan Traoré",
+      "player": "Tyrese Proctor",
       "tier": "add",
       "points": [
-        "Played through the calf Saturday but only managed 11 points and 2 assists in 20 minutes (about 16 fantasy points).",
-        "Before that, 28.7 FP/G over his last 3 games with 38.0 FP/36, an elite per-minute rate.",
-        "Moved behind Klay and Spencer. Still worth a spot if you have one: 22% rostered, 3 games next week."
-      ]
-    },
-    {
-      "player": "Precious Achiuwa",
-      "tier": "watch",
-      "points": [
-        "Questionable for Sunday against OKC with left ankle soreness. He missed Friday, his first absence this season.",
-        "When healthy: 25.5 FP/G and 35.1 FP/36, the second-best projection in the pool (23.9 FP/G).",
-        "Add him once he's cleared. If he sits again, Dylan Cardwell gets a look as a one-game fill-in. 24% rostered."
+        "New short-term add. Evan Mobley (toe) is out Monday and Jaylon Tyson (ankle) is questionable.",
+        "Started Saturday and posted a triple-double: 24 points, 11 rebounds and 10 assists (51 fantasy points). 34.9 FP/G over his last 3.",
+        "Minutes climbed from 22.8 to 34.1 in four games. Value drops once Mobley returns. 19% rostered, 3 games this week."
       ]
     },
     {
       "player": "Keldon Johnson",
       "tier": "floor",
       "points": [
-        "Steady bench role: 26.5 minutes and 24.2 FP/G over his last 3, up from 23.5 minutes earlier.",
-        "Projects for 22.6 FP/G, and only 10% rostered.",
-        "Plays Sunday, then 3 games next week. A safe fill-in if the adds above are gone."
+        "Three straight games of 28+ fantasy points (28.2, 29.8, 31.0) on 27.6 minutes per game.",
+        "Projects for 23.9 FP/G, and only 12% rostered.",
+        "3 games this week, 4 next. A safe fill-in if the adds above are gone."
+      ]
+    },
+    {
+      "player": "Precious Achiuwa",
+      "tier": "watch",
+      "points": [
+        "Moved out of the add list. He's missed 2 straight games (Friday and Sunday) with a leg/ankle issue and Yahoo lists him Out.",
+        "When healthy: 25.5 FP/G and 35.1 FP/36.",
+        "Add him once he's back on the floor. 23% rostered, 3 games this week."
       ]
     }
   ]
