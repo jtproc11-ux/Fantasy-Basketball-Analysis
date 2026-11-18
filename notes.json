@@ -9,13 +9,9 @@
       "add",
       "Add now: starting PG"
     ],
-    "Tyrese Proctor": [
-      "add",
-      "Add: Mobley out 7-10 days"
-    ],
     "Jordan Goodwin": [
-      "watch",
-      "Upside watch"
+      "add",
+      "Add: healthy, 25 min lately"
     ],
     "Keldon Johnson": [
       "floor",
@@ -39,11 +35,7 @@
     ],
     "Precious Achiuwa": [
       "watch",
-      "Ankle, missed 2 straight"
-    ],
-    "Alex Caruso": [
-      "watch",
-      "Upside watch"
+      "Leg, questionable Wed"
     ],
     "Quenton Jackson": [
       "hold",
@@ -61,27 +53,15 @@
       "hold",
       "Hold off"
     ],
-    "Jaylon Tyson": [
-      "hold",
-      "Ankle, sat Monday"
-    ],
     "Dylan Cardwell": [
       "watch",
       "Only if Achiuwa sits"
-    ],
-    "Patrick Williams": [
-      "hold",
-      "Hold off"
     ],
     "Mikel Brown Jr.": [
       "watch",
       "Upside watch"
     ],
     "Aaron Nesmith": [
-      "hold",
-      "Hold off"
-    ],
-    "Matisse Thybulle": [
       "hold",
       "Hold off"
     ],
@@ -93,15 +73,7 @@
       "watch",
       "Upside watch"
     ],
-    "Charles Bassey": [
-      "watch",
-      "Upside watch"
-    ],
     "Jake LaRavia": [
-      "pass",
-      "Pass"
-    ],
-    "Quentin Grimes": [
       "pass",
       "Pass"
     ],
@@ -120,10 +92,6 @@
     "Javon Small": [
       "add",
       "Speculative add"
-    ],
-    "Bilal Coulibaly": [
-      "pass",
-      "Pass"
     ],
     "T.J. McConnell": [
       "watch",
@@ -145,21 +113,13 @@
       "pass",
       "Knee, out"
     ],
-    "Reed Sheppard": [
-      "hold",
-      "Hold off"
-    ],
-    "Kris Dunn": [
-      "pass",
-      "Minutes cut"
-    ],
     "Jalen Williams": [
       "pass",
       "Pass: long-term injury"
     ],
     "De'Andre Hunter": [
       "watch",
-      "Hip, check status"
+      "Hip, questionable Wed"
     ],
     "Aaron Wiggins": [
       "hold",
@@ -179,7 +139,7 @@
     ],
     "Dean Wade": [
       "watch",
-      "Minutes up, watch"
+      "Starting lately, watch"
     ],
     "Jordan Poole": [
       "hold",
@@ -192,6 +152,18 @@
     "Noah Clowney": [
       "watch",
       "Upside watch"
+    ],
+    "Draymond Green": [
+      "hold",
+      "Questionable, minutes uneven"
+    ],
+    "Brice Sensabaugh": [
+      "watch",
+      "Minutes up, watch"
+    ],
+    "Isaiah Jackson": [
+      "hold",
+      "Bench minutes"
     ]
   },
   "picks": [
@@ -199,63 +171,63 @@
       "player": "Cam Spencer",
       "tier": "add",
       "points": [
-        "Top projection in the pool at 27.7 FP/G. Ty Jerome (hip) has missed consecutive games, and Spencer has started both: 33.2 and 31.7 fantasy points.",
-        "Monday vs. Washington: 12 points, 6 rebounds, 9 assists in 32 minutes. Minutes are up to 29.9 over his last 3, from 19.4 earlier.",
-        "32% rostered and climbing. 3 games left this week, 4 next week."
-      ]
-    },
-    {
-      "player": "Tyrese Proctor",
-      "tier": "add",
-      "points": [
-        "Upgraded from short-term add. Cleveland said Monday that Evan Mobley (toe sprain) will be re-evaluated in 7-10 days, so the bigger role should last at least another week.",
-        "38.0 FP/G over his last 3 (34.3, 51.2, 28.6) on 30.1 minutes. Jaylon Tyson (ankle) also sat Monday.",
-        "26.0 FP/G projection, 2nd in the pool. 32% rostered, 2 games left this week, 3 next."
+        "Still the top projection in the pool at 27.7 FP/G. He's started the last two with Ty Jerome (hip) out: 33.2 and 31.7 fantasy points.",
+        "29.9 minutes over his last 3, up from 19.4 earlier. Monday: 12 points, 6 rebounds, 9 assists.",
+        "34% rostered (up from 32%). 3 games left this week, 4 next, starting tonight at Cleveland."
       ]
     },
     {
       "player": "Meleek Thomas",
       "tier": "add",
       "points": [
-        "Moved up from upside watch. With Mobley and Tyson out, he's played 33.5 and 30.0 minutes in the last two games.",
-        "Projects for 24.8 FP/G, and Monday's 10 points, 6 rebounds, 3 assists and 2 steals came to 26.7 fantasy points.",
-        "22% rostered. A good fallback if Proctor is gone."
+        "Tyrese Proctor is no longer on the wire, so Thomas is now the Cleveland guard to grab. Evan Mobley (toe) still has no clear return date.",
+        "27.2 minutes over his last 3, with 23.8 and 26.7 fantasy points in his last two. Projects for 24.8 FP/G.",
+        "20% rostered. 2 games left this week, 3 next."
+      ]
+    },
+    {
+      "player": "Jordan Goodwin",
+      "tier": "add",
+      "points": [
+        "Moved up from upside watch. He's back from a calf injury and has played 25.2 minutes a game over his last 3, coming off the bench.",
+        "Strong per-minute producer: 39.8 FP/36 for the season. He had 33.4 fantasy points Saturday (14 points, 7 rebounds, 6 assists).",
+        "24.1 FP/G projection, 3rd in the pool, and only 7% rostered. 2 games this week, 4 next."
       ]
     },
     {
       "player": "Javon Small",
       "tier": "add",
       "points": [
-        "New name. With Jerome out he's gone 30.9 and 34.0 fantasy points in his last two games on about 29 minutes each.",
-        "Monday: 12 points, 5 rebounds and 12 assists. 34.6 FP/36 for the season.",
-        "Only 3% rostered and 7 games played, so it's a speculative add. Role likely shrinks when Jerome returns. 3 games this week, 4 next."
+        "30.9 and 34.0 fantasy points in his last two on about 29 minutes each, with Jerome out.",
+        "Monday: 12 points, 5 rebounds, 12 assists. 34.6 FP/36 for the season.",
+        "6% rostered (up from 3%). Speculative: his role likely shrinks when Jerome returns. 3 games this week, 4 next."
       ]
     },
     {
       "player": "Keldon Johnson",
       "tier": "floor",
       "points": [
-        "Three straight games of 28+ fantasy points (28.2, 29.8, 31.0); 29.7 FP/G over his last 3.",
-        "27.6 minutes per game lately, up from 23.7 earlier. Projects for 23.9 FP/G.",
-        "15% rostered. 3 games this week, 4 next. A safe pickup if the adds above are gone."
-      ]
-    },
-    {
-      "player": "Danny Wolf",
-      "tier": "hold",
-      "points": [
-        "Downgraded from add. He came off the bench Monday after four straight starts and played just 11 minutes (6.9 fantasy points).",
-        "His projection fell from 26.0 to 21.0 FP/G. 31.3 FP/36 is still good if the minutes come back.",
-        "If you added him, he's fine to drop for Spencer or Proctor. 16% rostered."
+        "29.7 FP/G over his last 3 on 27.6 minutes, up from 23.7 earlier. Projects for 23.9 FP/G.",
+        "Tuesday's game vs. Detroit isn't in the stats yet, so this is through Sunday.",
+        "19% rostered. 2 games left this week, 4 next. A safe pickup if the adds above are gone."
       ]
     },
     {
       "player": "De'Andre Hunter",
       "tier": "watch",
       "points": [
-        "Projects for 24.4 FP/G on 35.6 minutes a game lately, including 38.0 fantasy points on Nov. 13.",
-        "Left hip soreness kept him out Sunday, and Yahoo still lists him Questionable. Precious Achiuwa (ankle) has also missed 2 straight.",
-        "Add Hunter once he's cleared. 22% rostered, 3 games left this week."
+        "Projects for 24.4 FP/G on 35.6 minutes a game lately.",
+        "Still listed questionable (left hip) for tonight vs. Phoenix after sitting Sunday. Precious Achiuwa (leg) is also questionable but practiced Tuesday.",
+        "Add Hunter once he plays. 21% rostered, 3 games left this week."
+      ]
+    },
+    {
+      "player": "Dean Wade",
+      "tier": "watch",
+      "points": [
+        "New name. Started 2 of his last 3 for Philadelphia and played 33.6 minutes a game over that stretch.",
+        "30.9 and 31.7 fantasy points in his last two games, though his season rate is low (24.3 FP/36).",
+        "Only 3% rostered. Projects for 21.0 FP/G; a deeper option if the minutes stick. 2 games this week, 4 next."
       ]
     }
   ]
