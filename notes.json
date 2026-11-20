@@ -30,12 +30,12 @@
       "Starting, uneven output"
     ],
     "Precious Achiuwa": [
-      "hold",
-      "Back, but 8 min"
+      "pass",
+      "Doubtful, minutes down"
     ],
     "Quenton Jackson": [
-      "watch",
-      "Started last two"
+      "add",
+      "Add: starting, 26.7 FP last 3"
     ],
     "Robert Williams": [
       "watch",
@@ -79,7 +79,7 @@
     ],
     "Jerami Grant": [
       "hold",
-      "Hold off"
+      "Questionable, flat minutes"
     ],
     "Javon Small": [
       "watch",
@@ -111,7 +111,7 @@
     ],
     "De'Andre Hunter": [
       "add",
-      "Add: hip cleared, 37 min lately"
+      "Add: 37 min lately, questionable Fri"
     ],
     "Aaron Wiggins": [
       "hold",
@@ -131,7 +131,7 @@
     ],
     "Dean Wade": [
       "pass",
-      "Hamstring, out until Sat"
+      "Hamstring, questionable"
     ],
     "Jordan Poole": [
       "add",
@@ -182,8 +182,8 @@
       "Minutes down"
     ],
     "Kenrich Williams": [
-      "hold",
-      "Minutes uneven"
+      "watch",
+      "25.7 min lately with OKC thin"
     ],
     "Jaylon Tyson": [
       "pass",
@@ -192,6 +192,14 @@
     "Joan Beringer": [
       "hold",
       "Bench minutes"
+    ],
+    "Taylor Hendricks": [
+      "watch",
+      "Minutes up, 40.9 FP/36"
+    ],
+    "De'Anthony Melton": [
+      "hold",
+      "Minutes down"
     ]
   },
   "picks": [
@@ -199,36 +207,45 @@
       "player": "Tari Eason",
       "tier": "add",
       "points": [
-        "Top projection in the pool at 25.2 FP/G, 35.1 FP/36 for the season.",
-        "Back to the bench Wednesday with Amen Thompson healthy, but still played 24.9 minutes for 23.3 fantasy points.",
-        "25.7 FP/G over his last 3 on 27.5 minutes. 41% rostered, so he may not last. 1 game left this week, 3 next."
+        "Still the top projection in the pool at 25.2 FP/G, with 35.1 FP/36 for the season.",
+        "27.5 minutes and 25.7 fantasy points a game over his last 3, even coming off the bench.",
+        "40% rostered, so he may not last. 1 game left this week (Fri at Denver), 3 next."
       ]
     },
     {
       "player": "De'Andre Hunter",
       "tier": "add",
       "points": [
-        "Moved up from watch: the hip was cleared and he started Wednesday, playing 35.3 minutes.",
         "37.0 minutes a game over his last 3, the most of anyone in the pool. Projects for 24.4 FP/G.",
-        "Low per-minute rate (23.4 FP/36) and only 15.2 points Wednesday, so this is a minutes play. 20% rostered, 2 games left this week, 3 next."
+        "New today: Yahoo lists him Questionable for Friday at the Lakers. No reason reported yet, so check before tip-off.",
+        "Low per-minute rate (23.4 FP/36), so this is a minutes play. 19% rostered, 2 games left this week, 3 next."
       ]
     },
     {
       "player": "Meleek Thomas",
       "tier": "add",
       "points": [
-        "Jaylon Tyson (ankle) sat Wednesday and Evan Mobley (toe) is still out, due for a re-check around now.",
-        "28.6 minutes over his last 3, with 21.4 fantasy points Wednesday. Projects for 24.8 FP/G, 2nd in the pool.",
-        "20% rostered. Role likely shrinks when Mobley returns. 1 game left this week, 3 next."
+        "Jaylon Tyson (ankle) is still Out and Evan Mobley (toe) was due for a re-check this week, with no return date yet.",
+        "28.6 minutes and 24.0 fantasy points a game over his last 3. Projects for 24.8 FP/G, 2nd in the pool.",
+        "19% rostered. Role likely shrinks when Mobley returns. 1 game left this week (Fri vs. Indiana), 3 next."
       ]
     },
     {
       "player": "Jordan Poole",
       "tier": "add",
       "points": [
-        "New pick. 30.8 and 29.6 minutes in his last two, up from 19.9 early in the season.",
-        "35.7 fantasy points Wednesday vs. Detroit; 27.2 FP/G over his last 3.",
-        "Projects for 23.8 FP/G and only 11% rostered. 2 games left this week, 3 next."
+        "30.8 and 29.6 minutes in his last two, up from 19.9 early in the season.",
+        "35.7 fantasy points Wednesday; 27.2 FP/G over his last 3.",
+        "Projects for 23.8 FP/G and only 15% rostered. 2 games left this week, 3 next."
+      ]
+    },
+    {
+      "player": "Quenton Jackson",
+      "tier": "add",
+      "points": [
+        "New pick. Started 2 of his last 3: 35.2 fantasy points in 30.2 minutes, then 27.9 in 22.1.",
+        "26.7 FP/G over his last 3 and a strong 36.2 FP/36 for the season. Projects for 23.1 FP/G.",
+        "Only 9% rostered. T.J. McConnell (Probable) eats into the backcourt, so watch the minutes. 2 games left this week, 3 next."
       ]
     },
     {
@@ -237,34 +254,25 @@
       "points": [
         "Steady: 26.5 minutes over his last 3 and 25.0 fantasy points Wednesday.",
         "34.0 FP/36 for the season; projects for 23.9 FP/G.",
-        "19% rostered. 2 games left this week, but only 2 next week."
+        "18% rostered. 2 games left this week, but only 2 next week."
       ]
     },
     {
       "player": "Mario Hezonja",
       "tier": "watch",
       "points": [
-        "New name. Started Wednesday with Tyson out: 28.0 minutes, 34.9 fantasy points.",
-        "Also 34.4 points in his other recent start (Nov 14), but just 7-15 minutes when coming off the bench.",
-        "Only 7% rostered. Worth a short-term add while Tyson and Mobley are out; 1 game left this week, 3 next."
+        "Started his last two with Tyson out: 34.4 and 34.9 fantasy points in 28-34 minutes.",
+        "Only 7-15 minutes when coming off the bench, so the value depends on Tyson and Mobley staying out.",
+        "8% rostered. Short-term add only; 1 game left this week, 3 next."
       ]
     },
     {
       "player": "Javon Small",
       "tier": "watch",
       "points": [
-        "Moved down from add. Minutes fell to 20.7 Wednesday (16.3 fantasy points) after about 29 in the two games before.",
-        "Ty Jerome (hip) is questionable for Thursday vs. Golden State; when he returns Small's role likely shrinks.",
-        "Still 33.8 FP/36 and 9% rostered. Hold off unless Jerome stays out."
-      ]
-    },
-    {
-      "player": "Jordan Goodwin",
-      "tier": "watch",
-      "points": [
-        "Moved down from add. Played 19.9 and 16.6 minutes in his last two, after 31.4 on Saturday.",
-        "Excellent per-minute producer (39.2 FP/36), but 15.5 fantasy points Wednesday.",
-        "7% rostered. Projects for 22.7 FP/G; add again if the minutes climb back to 25+."
+        "Minutes fell to 20.7 Wednesday (16.3 fantasy points) after about 29 in the two games before.",
+        "No update found on Ty Jerome (hip); Small's role likely shrinks when he returns.",
+        "Still 33.8 FP/36 and 11% rostered. Hold off unless Jerome stays out."
       ]
     }
   ]
