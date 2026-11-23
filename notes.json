@@ -1,213 +1,169 @@
 {
-  "yahoo_note": "Saturday's (Nov 21) box scores weren't on Basketball-Reference yet at run time, so the numbers run through Friday. Saturday news is in the notes.",
+  "yahoo_note": "Numbers include Sunday's (Nov 22) games. Basketball-Reference hasn't posted Dec 4-11 games yet, so next-week game counts are low; the cards use this week's games.",
   "tiers": {
-    "Danny Wolf": [
-      "watch",
-      "Starting while Traoré is hurt"
-    ],
-    "Jordan Goodwin": [
-      "watch",
-      "Minutes back under 20"
-    ],
-    "Keldon Johnson": [
-      "hold",
-      "Only 15 min Tuesday"
-    ],
-    "Meleek Thomas": [
-      "watch",
-      "Tyson may return Monday"
-    ],
-    "Naji Marshall": [
-      "hold",
-      "4 pts in 14 min Saturday"
-    ],
-    "Nolan Traoré": [
-      "pass",
-      "Hamstring, no timeline"
-    ],
-    "Precious Achiuwa": [
-      "hold",
-      "Back, but minutes down"
-    ],
-    "Quenton Jackson": [
-      "add",
-      "Add: McConnell out Sunday"
-    ],
-    "Robert Williams": [
-      "watch",
-      "Great per minute, few minutes"
-    ],
-    "Max Strus": [
-      "add",
-      "Add: started Saturday"
-    ],
-    "Aaron Nesmith": [
-      "hold",
-      "Hold off"
-    ],
-    "Julian Champagnie": [
-      "floor",
-      "Solid floor"
-    ],
-    "Bones Hyland": [
-      "watch",
-      "Upside watch"
-    ],
-    "Jake LaRavia": [
-      "pass",
-      "Pass"
-    ],
-    "Ziaire Williams": [
-      "floor",
-      "Solid floor"
-    ],
-    "Ryan Kalkbrenner": [
-      "hold",
-      "Don’t chase"
-    ],
-    "Jerami Grant": [
-      "hold",
-      "Questionable, flat minutes"
-    ],
-    "Javon Small": [
-      "watch",
-      "Personal leave, back ~Mon"
-    ],
-    "T.J. McConnell": [
-      "pass",
-      "Left hamstring, out"
-    ],
-    "Dennis Schröder": [
-      "pass",
-      "Hamstring, out"
-    ],
-    "Collin Sexton": [
-      "watch",
-      "Upside watch"
-    ],
-    "Sion James": [
-      "pass",
-      "Pass"
-    ],
-    "Jalen Williams": [
-      "pass",
-      "Pass: long-term injury"
-    ],
     "De'Andre Hunter": [
       "add",
-      "Add: 37.9 min a night"
+      "Add: 37.7 min last 3"
     ],
-    "Aaron Wiggins": [
-      "hold",
-      "Minutes down"
-    ],
-    "Andrew Wiggins": [
-      "hold",
-      "Mostly rostered"
-    ],
-    "Terrence Shannon Jr.": [
-      "watch",
-      "One big game, watch"
-    ],
-    "Dean Wade": [
-      "pass",
-      "Out, hamstring"
-    ],
-    "Jordan Poole": [
+    "Kevin Huerter": [
       "add",
-      "Add: 25 pts Saturday"
+      "Add: starting for D. Robinson"
     ],
-    "Thomas Bryant": [
-      "watch",
-      "Only while Mobley sits"
-    ],
-    "Draymond Green": [
-      "hold",
-      "Elbow, expected back Sunday"
-    ],
-    "Brice Sensabaugh": [
-      "watch",
-      "31.5 FP/G last 3, bench"
-    ],
-    "Isaiah Jackson": [
-      "hold",
-      "Bench minutes"
+    "Kyle Kuzma": [
+      "add",
+      "Add: 4 games this week"
     ],
     "Tari Eason": [
-      "add",
-      "Add: Sengun eye injury"
-    ],
-    "Mario Hezonja": [
-      "watch",
-      "Starts only while Tyson sits"
-    ],
-    "Jakob Poeltl": [
       "floor",
-      "Solid floor"
+      "Sengun back, minutes steady"
     ],
-    "Reed Sheppard": [
-      "hold",
-      "Minutes uneven"
-    ],
-    "Charles Bassey": [
-      "hold",
-      "Great per minute, few minutes"
-    ],
-    "Kris Dunn": [
-      "pass",
-      "Lost his starting job"
-    ],
-    "Kenrich Williams": [
-      "watch",
-      "25.7 min lately with OKC thin"
-    ],
-    "Jaylon Tyson": [
-      "pass",
-      "Ankle, still out"
-    ],
-    "Joan Beringer": [
-      "hold",
-      "Bench minutes"
-    ],
-    "Taylor Hendricks": [
-      "watch",
-      "Minutes up, 40.9 FP/36"
-    ],
-    "De'Anthony Melton": [
-      "hold",
-      "Minutes down"
+    "Javon Small": [
+      "add",
+      "Add: back Monday"
     ],
     "Mo Bamba": [
       "hold",
       "Hayes back as starter"
     ],
-    "Tristan Da Silva": [
-      "floor",
-      "30 min a night, low ceiling"
+    "Buddy Hield": [
+      "add",
+      "Short-term add: Powell out"
     ],
     "Matisse Thybulle": [
       "floor",
       "Starting, steals floor"
     ],
-    "Sidy Cissoko": [
+    "Jordan Goodwin": [
       "watch",
-      "Starting, 32.5 FP Thursday"
+      "Strong per minute, ~21 min"
     ],
-    "Kyle Kuzma": [
+    "Aaron Wiggins": [
+      "floor",
+      "Steady 26 min, 2 games this week"
+    ],
+    "Max Strus": [
       "add",
-      "Add: 4 games next week"
+      "Add: 27 min last 3"
+    ],
+    "Meleek Thomas": [
+      "watch",
+      "Mobley out until ~Nov 29"
     ],
     "Tyrese Proctor": [
-      "hold",
-      "Starts end when Tyson returns"
+      "watch",
+      "26 min last 3, Tyson iffy"
     ],
-    "Jaylen Wells": [
+    "Aaron Nesmith": [
+      "hold",
+      "Low per-minute rate"
+    ],
+    "De'Anthony Melton": [
+      "hold",
+      "Bench role"
+    ],
+    "Julian Champagnie": [
       "floor",
-      "Starter, steady 25 min"
+      "Solid floor"
+    ],
+    "Naji Marshall": [
+      "hold",
+      "Minutes down"
+    ],
+    "Jordan Poole": [
+      "watch",
+      "24 min, 32.5 FP/36"
+    ],
+    "Draymond Green": [
+      "floor",
+      "Steady 25 min"
+    ],
+    "Terrence Shannon Jr.": [
+      "watch",
+      "24 min, 33.5 FP/36"
+    ],
+    "Mario Hezonja": [
+      "watch",
+      "26.1 FP last 3 in 21 min"
+    ],
+    "Andrew Wiggins": [
+      "hold",
+      "Low per-minute rate"
+    ],
+    "Dean Wade": [
+      "pass",
+      "Hamstring, out Monday"
+    ],
+    "Egor Dëmin": [
+      "watch",
+      "May start with Traoré out"
+    ],
+    "Kenrich Williams": [
+      "watch",
+      "25.5 min last 3"
+    ],
+    "Tristan Da Silva": [
+      "hold",
+      "Minutes down to 26"
+    ],
+    "Keldon Johnson": [
+      "hold",
+      "Minutes down"
+    ],
+    "Danny Wolf": [
+      "watch",
+      "Starting while Traoré is out"
     ],
     "Anfernee Simons": [
       "hold",
       "Low per-minute rate"
+    ],
+    "Kris Dunn": [
+      "hold",
+      "Lost starting job to Strus"
+    ],
+    "Nolan Traoré": [
+      "pass",
+      "Hamstring strain, no timeline"
+    ],
+    "Landry Shamet": [
+      "watch",
+      "Starting while Anunoby is out"
+    ],
+    "Dennis Schröder": [
+      "pass",
+      "Hamstring, still out"
+    ],
+    "Robert Williams": [
+      "watch",
+      "Great per minute, few minutes"
+    ],
+    "Taylor Hendricks": [
+      "watch",
+      "Back to bench with Edey back"
+    ],
+    "Luguentz Dort": [
+      "hold",
+      "Only 2 games this week"
+    ],
+    "Quenton Jackson": [
+      "hold",
+      "Nembhard back"
+    ],
+    "Bilal Coulibaly": [
+      "pass",
+      "18.2 FP last 3"
+    ],
+    "Obi Toppin": [
+      "pass",
+      "14.9 FP last 3"
+    ],
+    "Brice Sensabaugh": [
+      "pass",
+      "16.1 FP last 3"
+    ],
+    "Collin Sexton": [
+      "pass",
+      "17.0 FP last 3, bench role"
     ]
   },
   "picks": [
@@ -215,72 +171,72 @@
       "player": "De'Andre Hunter",
       "tier": "add",
       "points": [
-        "37.9 minutes a game over his last 3, the most in the pool, with 32.1 fantasy points a game. Projects for 26.7 FP/G, tops in the report.",
-        "Followed Friday's 30 points with 20 points and 6 rebounds in Saturday's win over Boston (not in the numbers yet).",
-        "24% rostered. Done this week, 3 games next. A minutes play: 25.0 FP/36."
+        "37.7 minutes a game over his last 3, the most in the pool, with 30.2 fantasy points a game.",
+        "Projects for 27.4 FP/G, tops in the report.",
+        "28% rostered, 3 games this week. A minutes play: 25.3 FP/36."
+      ]
+    },
+    {
+      "player": "Kevin Huerter",
+      "tier": "add",
+      "points": [
+        "New: starting while Duncan Robinson (quad) is out at least a week.",
+        "34.0 minutes a game over his last 3, up from 27.0 for the season. Projects for 25.7 FP/G.",
+        "26% rostered, 3 games this week. Value may fade once Robinson returns."
       ]
     },
     {
       "player": "Kyle Kuzma",
       "tier": "add",
       "points": [
-        "Projects for 24.9 FP/G: 27.7 minutes and 29.8 fantasy points a game over his last 3 starts.",
-        "Played Saturday after sitting Thursday, but shot 4 of 16 (12 points, 5 rebounds).",
-        "4 games next week, the most of any top add. 26% rostered."
+        "27.1 fantasy points a game over his last 3 starts, in 28.4 minutes.",
+        "Projects for 25.0 FP/G with a strong 31.7 FP/36.",
+        "4 games this week, the most of any top add. 24% rostered."
+      ]
+    },
+    {
+      "player": "Javon Small",
+      "tier": "add",
+      "points": [
+        "Upgraded from watch: missed Saturday for personal reasons and is off the injury report for Monday vs. Charlotte.",
+        "24.9 minutes and 26.4 fantasy points a game over his last 3 games played; 34.8 FP/36.",
+        "Projects for 24.1 FP/G. Only 6% rostered, 4 games this week."
+      ]
+    },
+    {
+      "player": "Buddy Hield",
+      "tier": "add",
+      "points": [
+        "New: made his first start Sunday with Norman Powell (hamstring) out. Powell is out again Monday vs. Cleveland.",
+        "27.5 minutes and 28.8 fantasy points a game over his last 3, up from 18.0 minutes for the season.",
+        "Projects for 22.9 FP/G. 10% rostered, 3 games this week. A short-term pickup: drop when Powell is back."
       ]
     },
     {
       "player": "Max Strus",
       "tier": "add",
       "points": [
-        "New: started Saturday at Dallas in place of Kris Dunn, who went to the bench.",
-        "25.8 minutes a game over his last 3 and 33.0 FP/36. Projects for 22.1 FP/G.",
-        "Only 15% rostered, with 4 games next week."
+        "27.1 minutes a game over his last 3 since taking Kris Dunn's starting spot; 31.2 FP/36.",
+        "Projects for 22.1 FP/G. 13% rostered, 4 games this week.",
+        "Risk: one lineup site projects Dunn back in the starting five Monday at Houston. Check before tip-off."
       ]
     },
     {
       "player": "Tari Eason",
-      "tier": "add",
+      "tier": "floor",
       "points": [
-        "Alperen Sengun has a scratched cornea and swelling from a hit to the face on Nov 18, with no firm timeline.",
-        "34.7 FP/36 and a 24.2 FP/G projection, though only 20.3 fantasy points a game over his last 3.",
-        "38% rostered, so he may not last. 3 games next week."
-      ]
-    },
-    {
-      "player": "Jordan Poole",
-      "tier": "add",
-      "points": [
-        "Scored 25 points at San Antonio Saturday (not in the numbers yet).",
-        "24.5 minutes and 21.7 fantasy points a game over his last 3; 32.2 FP/36.",
-        "Projects for 21.2 FP/G, 23% rostered. 3 games next week."
+        "Downgraded from add: Houston lists its full rotation available Monday, so Alperen Sengun (eye) should be back.",
+        "20.3 fantasy points a game over his last 3, below his 24.0 season average.",
+        "Still a solid 24.2 FP/G projection and 34.7 FP/36. 37% rostered, 3 games this week."
       ]
     },
     {
       "player": "Quenton Jackson",
-      "tier": "add",
+      "tier": "hold",
       "points": [
-        "T.J. McConnell (left hamstring) is out Sunday at New York and Haliburton is still out, leaving Nembhard, Jackson and Braden Smith at point guard.",
-        "25.2 fantasy points a game over his last 3, 35.5 FP/36 for the season. Projects for 21.9 FP/G.",
-        "10% rostered. 1 game left this week (Sunday), 3 next."
-      ]
-    },
-    {
-      "player": "Meleek Thomas",
-      "tier": "watch",
-      "points": [
-        "Downgraded from add: Jaylon Tyson (ankle) could return Monday at Chicago, and Evan Mobley is due for re-evaluation this week.",
-        "24.2 minutes and 23.1 fantasy points a game over his last 3. Projects for 22.6 FP/G.",
-        "16% rostered. Keep him only if you need a body for Monday-Tuesday."
-      ]
-    },
-    {
-      "player": "Danny Wolf",
-      "tier": "watch",
-      "points": [
-        "Started Friday after Nolan Traoré hurt his hamstring and scored 20 points with 5 rebounds.",
-        "Traoré has no timeline yet. Wolf projects for 19.7 FP/G and has a strong 31.2 FP/36.",
-        "7% rostered and 4 games next week. Add if Traoré is ruled out for Monday."
+        "Downgraded from add: Andrew Nembhard returned Sunday (16 points, 8 assists), cutting into Jackson's minutes.",
+        "19.1 minutes and 18.0 fantasy points a game over his last 3.",
+        "T.J. McConnell (hamstring) is still out, so he keeps some value. Projects for 19.7 FP/G, 9% rostered."
       ]
     }
   ]
