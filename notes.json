@@ -1,17 +1,13 @@
 {
-  "yahoo_note": "Numbers include Tuesday's (Nov 24) games. 'This week' counts games Wednesday through Sunday.",
+  "yahoo_note": "Numbers include Wednesday's (Nov 25) games. 'This week' counts games Thursday through Sunday.",
   "tiers": {
-    "Kyle Kuzma": [
-      "add",
-      "Add: 35.5 min last 3"
-    ],
     "Kevin Huerter": [
       "add",
-      "Add: starting, Robinson still out"
+      "Add: starting, Robinson day-to-day"
     ],
     "Buddy Hield": [
       "add",
-      "Short-term add: Powell out to ~Nov 28"
+      "Short-term add: Powell still out"
     ],
     "Mo Bamba": [
       "watch",
@@ -39,7 +35,7 @@
     ],
     "Danny Wolf": [
       "watch",
-      "Starting while Traoré is out"
+      "More minutes with Traor\u00e9 out"
     ],
     "Javon Small": [
       "watch",
@@ -50,8 +46,8 @@
       "24 min, 33.7 FP/36"
     ],
     "De'Anthony Melton": [
-      "hold",
-      "Bench role, 1 game next week"
+      "add",
+      "Add: starting with Curry out"
     ],
     "Keldon Johnson": [
       "hold",
@@ -67,11 +63,11 @@
     ],
     "Aaron Nesmith": [
       "pass",
-      "Foot soreness, missed Monday"
+      "Foot, ankle and knee issues"
     ],
     "Obi Toppin": [
       "watch",
-      "28 min with Pacers short-handed"
+      "Minutes back to 24"
     ],
     "Draymond Green": [
       "floor",
@@ -89,7 +85,7 @@
       "hold",
       "Low per-minute rate"
     ],
-    "Egor Dëmin": [
+    "Egor D\u00ebmin": [
       "watch",
       "25.0 FP last 3"
     ],
@@ -107,9 +103,9 @@
     ],
     "T.J. McConnell": [
       "pass",
-      "Hamstring, missed Monday"
+      "Hamstring, missed 2 straight"
     ],
-    "Dennis Schröder": [
+    "Dennis Schr\u00f6der": [
       "pass",
       "Hamstring, still out"
     ],
@@ -139,19 +135,19 @@
     ],
     "Mikel Brown Jr.": [
       "add",
-      "Add: starting while Traoré is out"
+      "Add: Traor\u00e9 out 8-10 weeks"
     ],
     "Caleb Martin": [
       "watch",
-      "3 straight starts, 1 game this week"
+      "Starting, 1 game left this week"
     ],
     "Isaiah Joe": [
       "watch",
-      "Started Tuesday, 21 points"
+      "25 min last 3, hip bruise"
     ],
     "Isaac Okoro": [
       "floor",
-      "Starting, 32 min, low per minute"
+      "33 min with Powell out, low per minute"
     ],
     "Jalen Slawson": [
       "watch",
@@ -164,70 +160,98 @@
     "Sam Merrill": [
       "hold",
       "Low per-minute rate"
+    ],
+    "Zach LaVine": [
+      "add",
+      "Claim: on waivers, knee day-to-day"
+    ],
+    "Gui Santos": [
+      "watch",
+      "More minutes with Curry out"
+    ],
+    "Alex Caruso": [
+      "hold",
+      "Bench role, 18 min"
+    ],
+    "Kingston Flemings": [
+      "hold",
+      "Starting, 15.8 FP last 3"
+    ],
+    "Collin Sexton": [
+      "hold",
+      "Bench role"
+    ],
+    "Sidy Cissoko": [
+      "floor",
+      "Starting, 26 min, low per minute"
+    ],
+    "Joan Beringer": [
+      "watch",
+      "Great per minute, 17 min"
     ]
   },
   "picks": [
     {
-      "player": "Kyle Kuzma",
+      "player": "Zach LaVine",
       "tier": "add",
       "points": [
-        "Top projection in the pool at 28.4 FP/G, and the highest rest-of-season total (1,672).",
-        "35.5 minutes a game over his last 3 starts, up from 28.4 for the season, with 29.2 fantasy points a game.",
-        "25% rostered and 3 games left this week. Risk: Milwaukee has shopped him, but no trade has been reported."
+        "New: on waivers (clears Nov 29) after missing Wednesday with right knee soreness; now listed day-to-day.",
+        "Best projection in the pool at 30.2 FP/G and the top rest-of-season total (1,778), on 33.0 minutes a game.",
+        "30.4 fantasy points a game over his last 3. Still 87% rostered elsewhere, so put in a claim. Only 1 game left this week, 2 next."
+      ]
+    },
+    {
+      "player": "De'Anthony Melton",
+      "tier": "add",
+      "points": [
+        "New: starting while Stephen Curry (torn oblique) is out; Curry is re-evaluated Friday after a 2-week minimum.",
+        "24 points and 7 assists Wednesday vs. Sacramento; 29.7 fantasy points a game over his last 3 in 26.3 minutes.",
+        "Projects for 24.4 FP/G with a 35.6 FP/36 rate. 20% rostered, 2 games left this week but only 1 next week."
       ]
     },
     {
       "player": "Kevin Huerter",
       "tier": "add",
       "points": [
-        "Still starting: Duncan Robinson (quad strain) sat again Tuesday and is listed day-to-day.",
-        "13 points, 6 rebounds and 5 assists vs. Orlando Tuesday; 32.8 minutes a game over his last 3.",
-        "Projects for 24.8 FP/G. 22% rostered, 2 games left this week. Value fades once Robinson returns."
-      ]
-    },
-    {
-      "player": "Mikel Brown Jr.",
-      "tier": "add",
-      "points": [
-        "New: made his first start Monday with Nolan Traoré (hamstring) out and posted 17 points, 5 rebounds and 7 assists.",
-        "Brooklyn lifted his minutes limit; he played 29 minutes and 31.2 FP/36 for the season.",
-        "Projects for 22.0 FP/G. 23% rostered and 3 games left this week. Watch his back, which has cost him games."
+        "Still starting: Duncan Robinson (quad strain) has missed 4 straight and is day-to-day.",
+        "32.8 minutes and 22.0 fantasy points a game over his last 3.",
+        "Projects for 24.8 FP/G. 20% rostered, 2 games left this week. Value fades once Robinson returns."
       ]
     },
     {
       "player": "Buddy Hield",
       "tier": "add",
       "points": [
-        "Starting while Norman Powell (hamstring) is out; Powell is expected back around Nov 28.",
-        "30.0 minutes and 32.4 fantasy points a game over his last 3, up from 18.5 minutes for the season.",
-        "Projects for 24.6 FP/G. 25% rostered, 2 games left this week, both likely before Powell returns. Drop him when Powell is back."
+        "Starting while Norman Powell (hamstring) is out; Chicago still hasn't given a return date (estimate ~Nov 28).",
+        "31.3 minutes and 33.4 fantasy points a game over his last 3, up from 19.1 minutes for the season.",
+        "Projects for 25.4 FP/G. 27% rostered, 1 game left this week. Drop him when Powell is back."
       ]
     },
     {
-      "player": "Obi Toppin",
-      "tier": "watch",
+      "player": "Mikel Brown Jr.",
+      "tier": "add",
       "points": [
-        "New: Indiana is missing Tyrese Haliburton, Aaron Nesmith and T.J. McConnell, and Toppin is soaking up minutes.",
-        "28.2 minutes a game over his last 3 (17 points Monday vs. Oklahoma City), up from 21.5 for the season.",
-        "Projects for 23.2 FP/G with a 32.0 FP/36 rate. Only 10% rostered, 2 games left this week. Few steals or blocks, so the floor depends on minutes."
-      ]
-    },
-    {
-      "player": "Caleb Martin",
-      "tier": "watch",
-      "points": [
-        "New: 3 straight starts, and 13 points, 5 steals and 2 blocks Tuesday vs. Denver (44.8 fantasy points).",
-        "29.8 fantasy points a game over his last 3 in 26.3 minutes.",
-        "Projects for 21.7 FP/G. 12% rostered, but only 1 game left this week, so better as a pickup for next week (2 games)."
+        "Nolan Traor\u00e9's hamstring strain will be re-evaluated in 8-10 weeks, so the starting role should last.",
+        "25.4 minutes and 20.4 fantasy points a game over his last 3, with a 30.3 FP/36 rate.",
+        "Projects for 20.9 FP/G. 28% rostered, 2 games left this week. Lower ceiling than the guys above, but the longest runway."
       ]
     },
     {
       "player": "Mo Bamba",
       "tier": "watch",
       "points": [
-        "Started Monday with Jaxson Hayes (left knee strain) out; Utah has not given Hayes a timeline.",
-        "Best per-minute rate in the report at 39.7 FP/36, but only 16.1 fantasy points a game over his last 3.",
-        "Projects for 24.5 FP/G. 27% rostered. A stream only while Hayes is out."
+        "Starting at center with Jaxson Hayes (left knee) out; Utah has not given Hayes a timeline.",
+        "Best per-minute rate among the adds at 39.7 FP/36, but only 16.1 fantasy points a game over his last 3.",
+        "Projects for 24.5 FP/G. 25% rostered, 2 games left this week. A stream only while Hayes is out."
+      ]
+    },
+    {
+      "player": "Caleb Martin",
+      "tier": "watch",
+      "points": [
+        "3 straight starts, with 13 points, 5 steals and 2 blocks Tuesday vs. Denver.",
+        "29.8 fantasy points a game over his last 3 in 26.3 minutes.",
+        "Projects for 21.7 FP/G. 13% rostered, but only 1 game left this week, so better as a pickup for next week (2 games)."
       ]
     }
   ]
