@@ -1,5 +1,5 @@
 {
-  "yahoo_note": "Numbers include Wednesday's (Nov 25) games. 'This week' counts games Thursday through Sunday.",
+  "yahoo_note": "Numbers include Wednesday's (Nov 25) games; there were no games on Thanksgiving. 'This week' counts games Friday through Sunday.",
   "tiers": {
     "Kevin Huerter": [
       "add",
@@ -188,6 +188,14 @@
     "Joan Beringer": [
       "watch",
       "Great per minute, 17 min"
+    ],
+    "Jaxson Hayes": [
+      "stash",
+      "Just dropped; knee, questionable Fri"
+    ],
+    "Kenrich Williams": [
+      "watch",
+      "29.7 FP last 3, Thunder thin on wings"
     ]
   },
   "picks": [
@@ -195,18 +203,18 @@
       "player": "Zach LaVine",
       "tier": "add",
       "points": [
-        "New: on waivers (clears Nov 29) after missing Wednesday with right knee soreness; now listed day-to-day.",
+        "On waivers (clears Nov 29). Missed Wednesday with right knee soreness; day-to-day, with Sunday vs. Minnesota as the target.",
         "Best projection in the pool at 30.2 FP/G and the top rest-of-season total (1,778), on 33.0 minutes a game.",
-        "30.4 fantasy points a game over his last 3. Still 87% rostered elsewhere, so put in a claim. Only 1 game left this week, 2 next."
+        "30.4 fantasy points a game over his last 3. Still 86% rostered elsewhere, so put in a claim. 1 game left this week, 2 next."
       ]
     },
     {
       "player": "De'Anthony Melton",
       "tier": "add",
       "points": [
-        "New: starting while Stephen Curry (torn oblique) is out; Curry is re-evaluated Friday after a 2-week minimum.",
+        "Starting while Stephen Curry (torn oblique) is out; the 2-week re-evaluation is due now, and reports point to closer to a month.",
         "24 points and 7 assists Wednesday vs. Sacramento; 29.7 fantasy points a game over his last 3 in 26.3 minutes.",
-        "Projects for 24.4 FP/G with a 35.6 FP/36 rate. 20% rostered, 2 games left this week but only 1 next week."
+        "Projects for 24.4 FP/G with a 35.6 FP/36 rate. 21% rostered, 2 games left this week but only 1 next week."
       ]
     },
     {
@@ -224,7 +232,7 @@
       "points": [
         "Starting while Norman Powell (hamstring) is out; Chicago still hasn't given a return date (estimate ~Nov 28).",
         "31.3 minutes and 33.4 fantasy points a game over his last 3, up from 19.1 minutes for the season.",
-        "Projects for 25.4 FP/G. 27% rostered, 1 game left this week. Drop him when Powell is back."
+        "Projects for 25.4 FP/G. 25% rostered, 1 game left this week. Drop him when Powell is back."
       ]
     },
     {
@@ -233,16 +241,16 @@
       "points": [
         "Nolan Traor\u00e9's hamstring strain will be re-evaluated in 8-10 weeks, so the starting role should last.",
         "25.4 minutes and 20.4 fantasy points a game over his last 3, with a 30.3 FP/36 rate.",
-        "Projects for 20.9 FP/G. 28% rostered, 2 games left this week. Lower ceiling than the guys above, but the longest runway."
+        "Projects for 20.9 FP/G. 27% rostered, 2 games left this week. Lower ceiling than the guys above, but the longest runway."
       ]
     },
     {
       "player": "Mo Bamba",
       "tier": "watch",
       "points": [
-        "Starting at center with Jaxson Hayes (left knee) out; Utah has not given Hayes a timeline.",
+        "Starting at center with Jaxson Hayes (left knee strain) out; Hayes is questionable for Friday vs. Denver.",
         "Best per-minute rate among the adds at 39.7 FP/36, but only 16.1 fantasy points a game over his last 3.",
-        "Projects for 24.5 FP/G. 25% rostered, 2 games left this week. A stream only while Hayes is out."
+        "Projects for 24.5 FP/G. 24% rostered, 2 games left this week. A stream only: Hayes is back on waivers and his return ends Bamba's run."
       ]
     },
     {
@@ -251,7 +259,16 @@
       "points": [
         "3 straight starts, with 13 points, 5 steals and 2 blocks Tuesday vs. Denver.",
         "29.8 fantasy points a game over his last 3 in 26.3 minutes.",
-        "Projects for 21.7 FP/G. 13% rostered, but only 1 game left this week, so better as a pickup for next week (2 games)."
+        "Projects for 21.7 FP/G. 15% rostered, but only 1 game left this week, so better as a pickup for next week (2 games)."
+      ]
+    },
+    {
+      "player": "Kenrich Williams",
+      "tier": "watch",
+      "points": [
+        "New to the pool. Oklahoma City is without Jalen Williams long term and Cason Wallace, so there are wing minutes to fill.",
+        "29.7 fantasy points a game over his last 3, with 25.7 minutes, up from 21.6 for the season.",
+        "Projects for 22.5 FP/G. 18% rostered and on waivers until Nov 30, with 1 game left this week and 2 next, so it's a claim for next week."
       ]
     }
   ]
